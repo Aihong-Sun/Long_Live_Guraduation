@@ -1,0 +1,128 @@
+
+<<< setup
+
+Model	E	sec	obj
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 84 variables, 160 constraints, 1 phase
+ ! TimeLimit            = 3,600
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! RandomSeed           = 2
+ ! TemporalRelaxation   = On
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 322.3 (before), 322.3 (after)
+ !  . Memory usage      : 574.9 kB (before), 574.9 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         84                 -
+ + New bound is 60
+ ! Using temporal relaxation.
+ *           255      100  0.02s        1      (gap is 76.47%)
+ *           251      180  0.02s        1      (gap is 76.10%)
+ *           237      260  0.02s        1      (gap is 74.68%)
+ *           229      384  0.02s        1      (gap is 73.80%)
+ *           221      464  0.02s        1      (gap is 72.85%)
+ *           216      544  0.02s        1      (gap is 72.22%)
+ *           204      624  0.02s        1      (gap is 70.59%)
+ *           185      704  0.02s        1      (gap is 67.57%)
+ *           183      784  0.02s        1      (gap is 67.21%)
+ *           182      870  0.02s        2      (gap is 67.03%)
+ *           176      991  0.02s        2      (gap is 65.91%)
+             176      997          1    3            -
+ + New bound is 78 (gap is 55.68%)
+ *           175    1,143  0.04s        2      (gap is 55.43%)
+ *           174    1,209  0.04s        2      (gap is 55.17%)
+ *           173    1,277  0.04s        2      (gap is 54.91%)
+ *           168    1,364  0.04s        2      (gap is 53.57%)
+ *           163    1,473  0.04s        2      (gap is 52.15%)
+ *           162    1,503  0.04s        2      (gap is 51.85%)
+ *           161    1,628  0.04s        2      (gap is 51.55%)
+ ! Time = 0.04s, Average fail depth = 20, Memory usage = 3.1 MB
+ ! Current bound is 78 (gap is 51.55%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           158    1,902  0.04s        2      (gap is 50.63%)
+ *           152    1,677  0.04s        3      (gap is 48.68%)
+ *           151    1,747  0.04s        3      (gap is 48.34%)
+ *           150    2,502  0.05s        2      (gap is 48.00%)
+ *           149    3,790  0.07s        3      (gap is 47.65%)
+ *           148    4,270  0.09s        3      (gap is 47.30%)
+ ! Using failure-directed search.
+ *           145    5,481  0.11s        3      (gap is 46.21%)
+ *           143    5,741  0.11s        3      (gap is 45.45%)
+ *           140    5,920  0.13s        2      (gap is 44.29%)
+ *           135    8,869  0.19s        2      (gap is 42.22%)
+ *           134    9,077  0.19s        2      (gap is 41.79%)
+ *           132   32,701  0.60s        3      (gap is 40.91%)
+ *           130     156k  2.93s        1      (gap is 40.00%)
+ *           129     168k  3.05s        3      (gap is 39.53%)
+ *           128     277k  5.18s        3      (gap is 39.06%)
+ *           127     307k  5.57s        2      (gap is 38.58%)
+ *           126  37,240k  677.50s      1      (gap is 38.10%)
+             126  41,278k          1    1       on Move4Drop({8,3,4,8,1,2,60})(2)
+ + New bound is 120 (gap is 4.76%)
+             126  41,320k         51    1   F   on Move4Drop({6,1,2,13,0,5,19})(1)
+ + New bound is 121 (gap is 3.97%)
+             126  41,501k         53    1   F   on Move4Drop({1,1,1,6,0,5,6})(1)
+ + New bound is 126 (gap is 0%)
+ ! Time = 792.88s, Average fail depth = 16, Memory usage = 22.3 MB
+ ! Current bound is 126 (gap is 0%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 35 solutions found.
+ ! Best objective         : 126 (optimal - effective tol. is 0)
+ ! Best bound             : 126
+ ! Number of branches     : 132,948,719
+ ! Number of fails        : 58,916,029
+ ! Total memory usage     : 22.3 MB (22.2 MB CP Optimizer + 0.2 MB Concert)
+ ! Time spent in solve    : 792.88s (792.88s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 167,677.8
+ ! ----------------------------------------------------------------------------
+JSP_integrated2.mod	E74	792.885	126
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	96	96
+Move2Drop	2	4	1	2	120	120
+Move2Drop	2	2	2	1	36	36
+Move2Drop	1	4	2	2	58	58
+Move2Drop	2	2	3	1	8	8
+Move2Drop	2	4	3	2	42	42
+Move2Drop	1	3	4	1	10	10
+Move2Drop	2	4	4	2	78	78
+Move2Drop	1	1	5	1	76	76
+Move2Drop	2	3	5	2	102	102
+Move2Drop	2	2	6	1	64	64
+Move2Drop	1	3	6	2	88	88
+Move2Drop	1	4	6	3	113	113
+Move2Drop	1	1	7	1	26	26
+Move2Drop	1	2	7	2	52	52
+Move2Drop	2	3	7	3	72	72
+Move2Drop	1	1	8	1	48	48
+Move2Drop	1	2	8	2	80	80
+Move2Drop	1	4	8	3	100	100
+Processing	-	1	1	1	96	102
+Processing	-	4	1	2	120	126
+Processing	-	2	2	1	41	52
+Processing	-	4	2	2	93	102
+Processing	-	2	3	1	23	32
+Processing	-	4	3	2	42	49
+Processing	-	3	4	1	56	72
+Processing	-	4	4	2	78	85
+Processing	-	1	5	1	87	96
+Processing	-	3	5	2	107	125
+Processing	-	2	6	1	66	79
+Processing	-	3	6	2	88	107
+Processing	-	4	6	3	113	119
+Processing	-	1	7	1	26	36
+Processing	-	2	7	2	53	62
+Processing	-	3	7	3	72	85
+Processing	-	1	8	1	51	62
+Processing	-	2	8	2	83	92
+Processing	-	4	8	3	102	110
+main returns 0
+
+<<< main
+
+
+<<< done
+

@@ -1,0 +1,4273 @@
+
+<<< setup
+
+Model	E	t	sec	obj
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 81 variables, 161 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 301.4 (before), 301.4 (after)
+ !  . Memory usage      : 574.3 kB (before), 574.3 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         81                 -
+ + New bound is 78
+ *           240      100  0.01s        1      (gap is 67.50%)
+ *           222      181  0.01s        1      (gap is 64.86%)
+ *           218      262  0.01s        1      (gap is 64.22%)
+ *           204      343  0.01s        1      (gap is 61.76%)
+ *           199      424  0.01s        1      (gap is 60.80%)
+ *           191      625  0.01s        1      (gap is 59.16%)
+ *           181      706  0.01s        1      (gap is 56.91%)
+ *           172      787  0.01s        1      (gap is 54.65%)
+ *           158    1,339  0.02s        1      (gap is 50.63%)
+ *           122    1,755  0.02s        1      (gap is 36.07%)
+             122    5,048         63    3   F        -
+ + New bound is 86 (gap is 29.51%)
+ ! Using failure-directed search.
+ *           120    7,984  0.12s        3      (gap is 28.33%)
+ *           118   13,316  0.17s        2      (gap is 27.12%)
+ *           116   19,842  0.41s        1      (gap is 25.86%)
+ *           114   78,748  1.46s        1      (gap is 24.56%)
+             114   98,593          1    1   F   on Move4Drop({1,3,4,12,0,2,44})(1)
+ + New bound is 87 (gap is 23.68%)
+             114     110k         29    1   F   on Move4Drop({2,1,1,20,0,5,14})(1)
+ + New bound is 90 (gap is 21.05%)
+             114     127k          1    1   F   on Move4Drop({3,4,5,0,1,1,49})(1)
+ + New bound is 96 (gap is 15.79%)
+             114     133k         51    1   F   on Move4Drop({1,3,4,12,0,2,44})(1)
+ + New bound is 101 (gap is 11.40%)
+ ! Time = 2.63s, Average fail depth = 15, Memory usage = 3.2 MB
+ ! Current bound is 101 (gap is 11.40%)
+ !          Best Branches  Non-fixed    W       Branch decision
+             114     136k         48    1       on Move4Drop({3,4,5,0,1,1,49})(2)
+ + New bound is 108 (gap is 5.26%)
+             114     136k         48    1   F   on Move4Drop({3,1,3,12,0,5,20})(1)
+ + New bound is 114 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 14 solutions found.
+ ! Best objective         : 114 (optimal - effective tol. is 0)
+ ! Best bound             : 114
+ ! Number of branches     : 596,314
+ ! Number of fails        : 303,371
+ ! Total memory usage     : 3.3 MB (3.1 MB CP Optimizer + 0.2 MB Concert)
+ ! Time spent in solve    : 2.68s (2.68s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 222,008.2
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E11	43200	2.689	114
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	30	30
+Move2Drop	1	2	1	2	52	52
+Move2Drop	1	4	1	3	77	77
+Move2Drop	2	5	1	4	95	95
+Move2Drop	2	1	2	1	6	6
+Move2Drop	1	3	2	2	38	38
+Move2Drop	1	2	2	3	65	65
+Move2Drop	1	5	2	4	96	96
+Move2Drop	1	3	3	1	16	16
+Move2Drop	2	4	3	2	35	35
+Move2Drop	2	1	3	3	63	65
+Move2Drop	2	5	3	4	113	113
+Move2Drop	2	4	4	1	53	53
+Move2Drop	1	2	4	2	85	85
+Move2Drop	1	5	4	3	114	114
+Move2Drop	2	3	5	1	28	28
+Move2Drop	1	1	5	2	46	46
+Move2Drop	2	5	5	3	77	77
+Processing	-	1	1	1	37	45
+Processing	-	2	1	2	52	68
+Processing	-	4	1	3	77	89
+Processing	-	5	1	4	95	95
+Processing	-	1	2	1	6	26
+Processing	-	3	2	2	38	48
+Processing	-	2	2	3	68	86
+Processing	-	5	2	4	96	96
+Processing	-	3	3	1	16	28
+Processing	-	4	3	2	43	51
+Processing	-	1	3	3	75	90
+Processing	-	5	3	4	113	113
+Processing	-	4	4	1	62	76
+Processing	-	2	4	2	86	104
+Processing	-	5	4	3	114	114
+Processing	-	3	5	1	28	38
+Processing	-	1	5	2	46	61
+Processing	-	5	5	3	77	77
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 81 variables, 161 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 301.4 (before), 301.4 (after)
+ !  . Memory usage      : 606.4 kB (before), 606.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         81                 -
+ + New bound is 76
+ *           148      100  0.01s        1      (gap is 48.65%)
+ *           136      181  0.01s        1      (gap is 44.12%)
+ *           134      318  0.01s        1      (gap is 43.28%)
+ *           132      399  0.01s        1      (gap is 42.42%)
+ *           130      538  0.01s        1      (gap is 41.54%)
+ *           128      662  0.01s        1      (gap is 40.63%)
+ *           127      743  0.01s        1      (gap is 40.16%)
+ *           113      850  0.01s        1      (gap is 32.74%)
+ *           112      935  0.01s        2      (gap is 32.14%)
+             112      996          2    3            -
+ + New bound is 84 (gap is 25.00%)
+ *           102    1,276  0.02s        1      (gap is 17.65%)
+ *           100    1,718  0.02s        1      (gap is 16.00%)
+ *            98    1,204  0.02s        3      (gap is 14.29%)
+ *            96    2,203  0.03s        2      (gap is 12.50%)
+ *            94    3,044  0.03s        3      (gap is 10.64%)
+ *            92    3,354  0.06s        1      (gap is 8.70%)
+ ! Using failure-directed search.
+ *            91   18,361  0.18s        2      (gap is 7.69%)
+              91    9,124         28    1   F   on Move4Drop({1,1,1,8,0,5,6})(1)
+ + New bound is 85 (gap is 6.59%)
+ *            90   10,006  0.22s        1      (gap is 5.56%)
+ ! Time = 0.22s, Average fail depth = 15, Memory usage = 3.0 MB
+ ! Current bound is 85 (gap is 5.56%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              90   10,006         66    1            -
+ + New bound is 88 (gap is 2.22%)
+              90   20,592         27    1   F   on Move4Drop({1,1,1,8,0,5,6})(1)
+ + New bound is 90 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 17 solutions found.
+ ! Best objective         : 90 (optimal - effective tol. is 0)
+ ! Best bound             : 90
+ ! Number of branches     : 101,593
+ ! Number of fails        : 53,786
+ ! Total memory usage     : 3.2 MB (3.0 MB CP Optimizer + 0.2 MB Concert)
+ ! Time spent in solve    : 0.45s (0.45s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 222,304.2
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E12	43200	0.458	90
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	32	32
+Move2Drop	1	2	1	2	44	46
+Move2Drop	1	4	1	3	68	68
+Move2Drop	2	5	1	4	90	90
+Move2Drop	1	1	2	1	14	14
+Move2Drop	2	3	2	2	38	38
+Move2Drop	1	2	2	3	60	60
+Move2Drop	1	5	2	4	90	90
+Move2Drop	2	3	3	1	8	8
+Move2Drop	2	4	3	2	24	24
+Move2Drop	2	1	3	3	48	48
+Move2Drop	2	5	3	4	78	78
+Move2Drop	1	4	4	1	6	6
+Move2Drop	1	2	4	2	30	30
+Move2Drop	2	5	4	3	58	58
+Move2Drop	2	3	5	1	22	22
+Move2Drop	1	1	5	2	42	42
+Move2Drop	2	5	5	3	68	68
+Processing	-	1	1	1	34	42
+Processing	-	2	1	2	48	64
+Processing	-	4	1	3	71	83
+Processing	-	5	1	4	90	90
+Processing	-	1	2	1	14	34
+Processing	-	3	2	2	38	48
+Processing	-	2	2	3	64	82
+Processing	-	5	2	4	90	90
+Processing	-	3	3	1	8	20
+Processing	-	4	3	2	24	32
+Processing	-	1	3	3	57	72
+Processing	-	5	3	4	78	78
+Processing	-	4	4	1	6	20
+Processing	-	2	4	2	30	48
+Processing	-	5	4	3	58	58
+Processing	-	3	5	1	22	32
+Processing	-	1	5	2	42	57
+Processing	-	5	5	3	68	68
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 81 variables, 161 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 301.4 (before), 301.4 (after)
+ !  . Memory usage      : 606.4 kB (before), 606.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         81                 -
+ + New bound is 76
+ *           168      100  0.01s        1      (gap is 54.76%)
+ *           154      247  0.01s        1      (gap is 50.65%)
+ *           146      392  0.01s        1      (gap is 47.95%)
+ *           142      473  0.01s        1      (gap is 46.48%)
+ *           140      670  0.01s        1      (gap is 45.71%)
+ *           138      751  0.01s        1      (gap is 44.93%)
+ *           126      839  0.01s        1      (gap is 39.68%)
+ *           124      907  0.01s        3      (gap is 38.71%)
+ *           120    1,284  0.01s        1      (gap is 36.67%)
+ *           113    1,711  0.01s        1      (gap is 32.74%)
+ *           110    1,390  0.01s        3      (gap is 30.91%)
+ *           106    2,532  0.02s        1      (gap is 28.30%)
+ *           100    3,353  0.03s        1      (gap is 24.00%)
+             100    5,034         57    1   F        -
+ + New bound is 84 (gap is 16.00%)
+ ! Using failure-directed search.
+ *            98    5,644  0.08s        3      (gap is 14.29%)
+              98   18,006         60    1   F   on jobOnMachine({4,2,2,18,0,4,36})
+ + New bound is 94 (gap is 4.08%)
+              98   27,672         37    1   F   on Move4Drop({1,1,1,8,0,5,6})(1)
+ + New bound is 98 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 14 solutions found.
+ ! Best objective         : 98 (optimal - effective tol. is 0)
+ ! Best bound             : 98
+ ! Number of branches     : 128,673
+ ! Number of fails        : 68,844
+ ! Total memory usage     : 3.2 MB (2.9 MB CP Optimizer + 0.3 MB Concert)
+ ! Time spent in solve    : 0.58s (0.58s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 221,468.2
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E13	43200	0.583	98
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	16	16
+Move2Drop	2	2	1	2	26	26
+Move2Drop	2	4	1	3	50	50
+Move2Drop	2	5	1	4	80	80
+Move2Drop	1	1	2	1	16	16
+Move2Drop	1	3	2	2	52	52
+Move2Drop	2	2	2	3	70	70
+Move2Drop	1	5	2	4	98	98
+Move2Drop	1	3	3	1	10	10
+Move2Drop	2	4	3	2	34	34
+Move2Drop	2	1	3	3	54	54
+Move2Drop	1	5	3	4	84	84
+Move2Drop	2	4	4	1	12	12
+Move2Drop	2	2	4	2	40	40
+Move2Drop	1	5	4	3	70	70
+Move2Drop	1	3	5	1	38	38
+Move2Drop	1	1	5	2	58	58
+Move2Drop	2	5	5	3	96	96
+Processing	-	1	1	1	16	24
+Processing	-	2	1	2	26	42
+Processing	-	4	1	3	50	62
+Processing	-	5	1	4	80	80
+Processing	-	1	2	1	24	44
+Processing	-	3	2	2	52	62
+Processing	-	2	2	3	70	88
+Processing	-	5	2	4	98	98
+Processing	-	3	3	1	10	22
+Processing	-	4	3	2	34	42
+Processing	-	1	3	3	54	69
+Processing	-	5	3	4	84	84
+Processing	-	4	4	1	12	26
+Processing	-	2	4	2	42	60
+Processing	-	5	4	3	70	70
+Processing	-	3	5	1	38	48
+Processing	-	1	5	2	69	84
+Processing	-	5	5	3	96	96
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 81 variables, 161 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 301.4 (before), 301.4 (after)
+ !  . Memory usage      : 606.4 kB (before), 606.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         81                 -
+ + New bound is 84
+ *           308      100  0.01s        1      (gap is 72.73%)
+ *           280      181  0.01s        1      (gap is 70.00%)
+ *           279      262  0.01s        1      (gap is 69.89%)
+ *           252      343  0.01s        1      (gap is 66.67%)
+ *           233      424  0.01s        1      (gap is 63.95%)
+ *           230      505  0.01s        1      (gap is 63.48%)
+ *           219      586  0.01s        1      (gap is 61.64%)
+ *           208      667  0.01s        1      (gap is 59.62%)
+ *           205      748  0.01s        1      (gap is 59.02%)
+ *           198      829  0.01s        1      (gap is 57.58%)
+             198      921         68    1            -
+ + New bound is 96 (gap is 51.52%)
+ *           193      976  0.01s        1      (gap is 50.26%)
+ *           192    1,114  0.02s        1      (gap is 50.00%)
+ *           180    1,415  0.02s        1      (gap is 46.67%)
+ *           162    1,198  0.02s        2      (gap is 40.74%)
+ *           160    1,246  0.02s        2      (gap is 40.00%)
+ *           158    2,259  0.03s        1      (gap is 39.24%)
+ ! Using failure-directed search.
+ *           156    4,413  0.04s        2      (gap is 38.46%)
+ *           147    5,037  0.05s        2      (gap is 34.69%)
+ ! Time = 0.05s, Average fail depth = 15, Memory usage = 2.9 MB
+ ! Current bound is 96 (gap is 34.69%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           144    5,847  0.05s        2      (gap is 33.33%)
+ *           142   65,244  0.71s        3      (gap is 32.39%)
+ *           140   87,974  1.42s        1      (gap is 31.43%)
+             140     182k         52    1   F   on Move4Drop({3,2,4,8,0,3,32})(1)
+ + New bound is 101 (gap is 27.86%)
+             140     226k          1    1   F   on Drop({1,4,5,0,1,4,0})
+ + New bound is 112 (gap is 20.00%)
+             140     235k         47    1   F   on Drop({4,1,4,14,0,5,12})
+ + New bound is 118 (gap is 15.71%)
+             140     235k         47    1       on Move4Drop({5,2,1,15,0,3,34})(2)
+ + New bound is 119 (gap is 15.00%)
+             140     236k         43    1   F   on Move4Drop({2,2,3,10,0,1,34})(1)
+ + New bound is 135 (gap is 3.57%)
+             140     236k         43    1   F   on Move4Drop({3,1,3,12,0,5,20})(1)
+ + New bound is 140 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 21 solutions found.
+ ! Best objective         : 140 (optimal - effective tol. is 0)
+ ! Best bound             : 140
+ ! Number of branches     : 871,560
+ ! Number of fails        : 447,990
+ ! Total memory usage     : 3.5 MB (3.2 MB CP Optimizer + 0.3 MB Concert)
+ ! Time spent in solve    : 5.02s (5.02s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 173,375.8
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E14	43200	5.029	140
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	4	4
+Move2Drop	1	2	1	2	16	16
+Move2Drop	2	4	1	3	38	38
+Move2Drop	1	5	1	4	72	72
+Move2Drop	2	1	2	1	27	28
+Move2Drop	2	3	2	2	58	58
+Move2Drop	2	2	2	3	74	74
+Move2Drop	2	5	2	4	112	112
+Move2Drop	2	3	3	1	11	11
+Move2Drop	1	4	3	2	30	30
+Move2Drop	2	1	3	3	52	52
+Move2Drop	1	5	3	4	118	118
+Move2Drop	1	4	4	1	58	58
+Move2Drop	2	2	4	2	92	92
+Move2Drop	2	5	4	3	140	140
+Move2Drop	1	3	5	1	82	82
+Move2Drop	1	1	5	2	100	100
+Move2Drop	1	5	5	3	140	140
+Processing	-	1	1	1	4	12
+Processing	-	2	1	2	16	32
+Processing	-	4	1	3	38	50
+Processing	-	5	1	4	72	72
+Processing	-	1	2	1	31	51
+Processing	-	3	2	2	58	68
+Processing	-	2	2	3	74	92
+Processing	-	5	2	4	112	112
+Processing	-	3	3	1	11	23
+Processing	-	4	3	2	30	38
+Processing	-	1	3	3	55	70
+Processing	-	5	3	4	118	118
+Processing	-	4	4	1	60	74
+Processing	-	2	4	2	92	110
+Processing	-	5	4	3	140	140
+Processing	-	3	5	1	82	92
+Processing	-	1	5	2	100	115
+Processing	-	5	5	3	140	140
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 93 variables, 185 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 364.9 (before), 364.9 (after)
+ !  . Memory usage      : 639.0 kB (before), 639.0 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         93                 -
+ + New bound is 63
+ *           296      116  0.01s        1      (gap is 78.72%)
+ *           282      210  0.01s        1      (gap is 77.66%)
+ *           264      304  0.01s        1      (gap is 76.14%)
+ *           260      398  0.01s        1      (gap is 75.77%)
+ *           222      492  0.01s        1      (gap is 71.62%)
+ *           216      631  0.01s        1      (gap is 70.83%)
+ *           210      725  0.01s        1      (gap is 70.00%)
+ *           204      819  0.01s        1      (gap is 69.12%)
+ *           198      913  0.01s        1      (gap is 68.18%)
+ *           195    1,078  0.02s        1      (gap is 67.69%)
+             195    1,079          1    1   F        -
+ + New bound is 92 (gap is 52.82%)
+ *           189    1,143  0.02s        1      (gap is 51.32%)
+ *           157    1,365  0.02s        1      (gap is 41.40%)
+ *           142    1,925  0.02s        3      (gap is 35.21%)
+ ! Using failure-directed search.
+ *           128    2,789  0.04s        2      (gap is 28.13%)
+ *           126    2,867  0.06s        1      (gap is 26.98%)
+ *           124    2,925  0.06s        1      (gap is 25.81%)
+ *           122    7,275  0.11s        3      (gap is 24.59%)
+ *           120   15,568  0.24s        2      (gap is 23.33%)
+ ! Time = 0.24s, Average fail depth = 14, Memory usage = 3.2 MB
+ ! Current bound is 92 (gap is 23.33%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           116     388k  5.62s        2      (gap is 20.69%)
+             116     792k         74    1   F   on jobOnMachine({5,3,4,12,0,2,74})
+ + New bound is 101 (gap is 12.93%)
+             116     798k         55    1   F   on Move4Drop({5,2,2,15,0,1,46})(1)
+ + New bound is 115 (gap is 0.86%)
+             116     798k         55    1   F   on Move4Drop({3,3,5,0,1,3,0})(1)
+ + New bound is 116 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 19 solutions found.
+ ! Best objective         : 116 (optimal - effective tol. is 0)
+ ! Best bound             : 116
+ ! Number of branches     : 3,550,569
+ ! Number of fails        : 1,665,076
+ ! Total memory usage     : 4.2 MB (3.7 MB CP Optimizer + 0.4 MB Concert)
+ ! Time spent in solve    : 19.28s (19.28s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 184,110.4
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E21	43200	19.287	116
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	24	24
+Move2Drop	1	4	1	2	56	56
+Move2Drop	2	5	1	3	80	80
+Move2Drop	1	2	2	1	8	8
+Move2Drop	1	4	2	2	34	34
+Move2Drop	1	5	2	3	62	62
+Move2Drop	2	1	3	1	56	56
+Move2Drop	1	3	3	2	76	76
+Move2Drop	1	5	3	3	114	114
+Move2Drop	1	2	4	1	26	26
+Move2Drop	2	3	4	2	42	42
+Move2Drop	2	4	4	3	74	74
+Move2Drop	1	5	4	4	96	96
+Move2Drop	1	1	5	1	46	46
+Move2Drop	2	2	5	2	62	62
+Move2Drop	1	4	5	3	90	90
+Move2Drop	2	5	5	4	116	116
+Move2Drop	2	1	6	1	6	6
+Move2Drop	2	2	6	2	30	30
+Move2Drop	2	3	6	3	68	68
+Move2Drop	2	5	6	4	98	98
+Processing	-	1	1	1	24	34
+Processing	-	4	1	2	56	74
+Processing	-	5	1	3	80	80
+Processing	-	2	2	1	8	18
+Processing	-	4	2	2	34	52
+Processing	-	5	2	3	62	62
+Processing	-	1	3	1	56	66
+Processing	-	3	3	2	80	100
+Processing	-	5	3	3	114	114
+Processing	-	2	4	1	26	36
+Processing	-	3	4	2	42	57
+Processing	-	4	4	3	74	86
+Processing	-	5	4	4	96	96
+Processing	-	1	5	1	46	56
+Processing	-	2	5	2	62	77
+Processing	-	4	5	3	90	102
+Processing	-	5	5	4	116	116
+Processing	-	1	6	1	6	16
+Processing	-	2	6	2	36	51
+Processing	-	3	6	3	68	80
+Processing	-	5	6	4	98	98
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 93 variables, 185 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 364.9 (before), 364.9 (after)
+ !  . Memory usage      : 639.1 kB (before), 639.1 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         93                 -
+ + New bound is 51
+ *           162      116  0.01s        1      (gap is 68.52%)
+ *           158      210  0.01s        1      (gap is 67.72%)
+ *           152      304  0.01s        1      (gap is 66.45%)
+ *           146      398  0.01s        1      (gap is 65.07%)
+ *           138      492  0.01s        1      (gap is 63.04%)
+ *           137      586  0.01s        1      (gap is 62.77%)
+ *           126      680  0.01s        1      (gap is 59.52%)
+ *           124      774  0.01s        1      (gap is 58.87%)
+ *           122      868  0.01s        1      (gap is 58.20%)
+ *           114      962  0.01s        1      (gap is 55.26%)
+             114    1,048         79    1            -
+ + New bound is 81 (gap is 28.95%)
+ *           110    1,616  0.02s        1      (gap is 26.36%)
+ *           106    1,046  0.02s        2      (gap is 23.58%)
+ *           100    1,136  0.02s        2      (gap is 19.00%)
+ *            96    1,704  0.02s        2      (gap is 15.63%)
+ ! Using failure-directed search.
+ *            93    2,189  0.03s        2      (gap is 12.90%)
+ *            86    2,312  0.03s        2      (gap is 5.81%)
+ *            85    4,786  0.05s        2      (gap is 4.71%)
+ *            84    8,228  0.30s        1      (gap is 3.57%)
+ ! Time = 0.30s, Average fail depth = 14, Memory usage = 3.2 MB
+ ! Current bound is 81 (gap is 3.57%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *            83    8,762  0.32s        1      (gap is 2.41%)
+ *            82    8,880  0.32s        1      (gap is 1.22%)
+              82   12,337          1    1   F   on Move4Drop({4,4,5,0,1,4,0})(1)
+ + New bound is 82 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 20 solutions found.
+ ! Best objective         : 82 (optimal - effective tol. is 0)
+ ! Best bound             : 82
+ ! Number of branches     : 76,338
+ ! Number of fails        : 37,452
+ ! Total memory usage     : 3.7 MB (3.2 MB CP Optimizer + 0.5 MB Concert)
+ ! Time spent in solve    : 0.37s (0.37s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 201,952.4
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E22	43200	0.38	82
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	4	4
+Move2Drop	2	4	1	2	16	16
+Move2Drop	2	5	1	3	38	38
+Move2Drop	1	2	2	1	20	20
+Move2Drop	2	4	2	2	34	34
+Move2Drop	1	5	2	3	56	56
+Move2Drop	2	1	3	1	24	24
+Move2Drop	1	3	3	2	38	38
+Move2Drop	2	5	3	3	64	64
+Move2Drop	1	2	4	1	6	6
+Move2Drop	1	3	4	2	22	22
+Move2Drop	1	4	4	3	40	40
+Move2Drop	1	5	4	4	70	70
+Move2Drop	1	1	5	1	32	32
+Move2Drop	2	2	5	2	46	46
+Move2Drop	1	4	5	3	66	66
+Move2Drop	1	5	5	4	82	82
+Move2Drop	2	1	6	1	14	14
+Move2Drop	2	2	6	2	26	26
+Move2Drop	2	3	6	3	48	48
+Move2Drop	2	5	6	4	78	78
+Processing	-	1	1	1	4	14
+Processing	-	4	1	2	16	34
+Processing	-	5	1	3	38	38
+Processing	-	2	2	1	20	30
+Processing	-	4	2	2	34	52
+Processing	-	5	2	3	56	56
+Processing	-	1	3	1	24	34
+Processing	-	3	3	2	38	58
+Processing	-	5	3	3	64	64
+Processing	-	2	4	1	6	16
+Processing	-	3	4	2	22	37
+Processing	-	4	4	3	52	64
+Processing	-	5	4	4	70	70
+Processing	-	1	5	1	34	44
+Processing	-	2	5	2	46	61
+Processing	-	4	5	3	66	78
+Processing	-	5	5	4	82	82
+Processing	-	1	6	1	14	24
+Processing	-	2	6	2	30	45
+Processing	-	3	6	3	58	70
+Processing	-	5	6	4	78	78
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 93 variables, 185 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 364.9 (before), 364.9 (after)
+ !  . Memory usage      : 639.1 kB (before), 639.1 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         93                 -
+ + New bound is 51
+ *           153      116  0.01s        1      (gap is 66.67%)
+ *           148      210  0.01s        1      (gap is 65.54%)
+ *           140      368  0.01s        1      (gap is 63.57%)
+ *           134      462  0.01s        1      (gap is 61.94%)
+ *           131      556  0.01s        1      (gap is 61.07%)
+ *           130      650  0.01s        1      (gap is 60.77%)
+ *           122      744  0.01s        1      (gap is 58.20%)
+ *           115    1,331  0.02s        1      (gap is 55.65%)
+ *           114    1,745  0.02s        1      (gap is 55.26%)
+ *           113    1,337  0.02s        2      (gap is 54.87%)
+ *           111    1,751  0.02s        2      (gap is 54.05%)
+ *           108    1,804  0.02s        3      (gap is 52.78%)
+ *           101    3,836  0.07s        2      (gap is 49.50%)
+ *            98    3,866  0.07s        1      (gap is 47.96%)
+              98    5,066         70    2            -
+ + New bound is 84 (gap is 14.29%)
+ *            95    5,097  0.09s        1      (gap is 11.58%)
+ ! Using failure-directed search.
+ *            94    5,395  0.11s        2      (gap is 10.64%)
+ *            91    6,299  0.11s        2      (gap is 7.69%)
+ *            90   14,187  0.37s        1      (gap is 6.67%)
+ ! Time = 0.37s, Average fail depth = 19, Memory usage = 3.2 MB
+ ! Current bound is 84 (gap is 6.67%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *            89   21,158  0.55s        1      (gap is 5.62%)
+              89   23,107         55    1       on Move4Drop({6,4,5,0,1,3,0})(2)
+ + New bound is 85 (gap is 4.49%)
+              89   23,118         55    1       on Move4Drop({6,4,5,0,1,3,0})(2)
+ + New bound is 86 (gap is 3.37%)
+              89   23,146         55    1   F   on Move4Drop({1,1,1,10,0,5,6})(1)
+ + New bound is 87 (gap is 2.25%)
+              89   23,697         47    1   F   on Move4Drop({2,1,2,10,0,5,8})(1)
+ + New bound is 89 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 19 solutions found.
+ ! Best objective         : 89 (optimal - effective tol. is 0)
+ ! Best bound             : 89
+ ! Number of branches     : 142,698
+ ! Number of fails        : 70,155
+ ! Total memory usage     : 3.7 MB (3.2 MB CP Optimizer + 0.5 MB Concert)
+ ! Time spent in solve    : 0.65s (0.64s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 220,213.0
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E23	43200	0.65	89
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	26	26
+Move2Drop	1	4	1	2	50	50
+Move2Drop	1	5	1	3	74	74
+Move2Drop	1	2	2	1	4	4
+Move2Drop	1	4	2	2	22	22
+Move2Drop	2	5	2	3	44	44
+Move2Drop	2	1	3	1	16	16
+Move2Drop	1	3	3	2	34	34
+Move2Drop	2	5	3	3	62	62
+Move2Drop	2	2	4	1	33	33
+Move2Drop	2	3	4	2	58	58
+Move2Drop	2	4	4	3	75	75
+Move2Drop	2	5	4	4	89	89
+Move2Drop	2	1	5	1	2	2
+Move2Drop	2	2	5	2	19	19
+Move2Drop	2	4	5	3	42	42
+Move2Drop	1	5	5	4	56	56
+Move2Drop	1	1	6	1	40	40
+Move2Drop	2	2	6	2	52	52
+Move2Drop	2	3	6	3	73	73
+Move2Drop	1	5	6	4	89	89
+Processing	-	1	1	1	28	38
+Processing	-	4	1	2	54	72
+Processing	-	5	1	3	74	74
+Processing	-	2	2	1	4	14
+Processing	-	4	2	2	22	40
+Processing	-	5	2	3	44	44
+Processing	-	1	3	1	16	26
+Processing	-	3	3	2	34	54
+Processing	-	5	3	3	62	62
+Processing	-	2	4	1	40	50
+Processing	-	3	4	2	58	73
+Processing	-	4	4	3	75	87
+Processing	-	5	4	4	89	89
+Processing	-	1	5	1	2	12
+Processing	-	2	5	2	19	34
+Processing	-	4	5	3	42	54
+Processing	-	5	5	4	56	56
+Processing	-	1	6	1	40	50
+Processing	-	2	6	2	52	67
+Processing	-	3	6	3	73	85
+Processing	-	5	6	4	89	89
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 93 variables, 185 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 364.9 (before), 364.9 (after)
+ !  . Memory usage      : 639.1 kB (before), 639.1 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         93                 -
+ + New bound is 73
+ *           352      116  0.01s        1      (gap is 79.26%)
+ *           330      210  0.01s        1      (gap is 77.88%)
+ *           324      304  0.01s        1      (gap is 77.47%)
+ *           232      477  0.01s        1      (gap is 68.53%)
+ *           217      571  0.01s        1      (gap is 66.36%)
+ *           210      725  0.01s        1      (gap is 65.24%)
+ *           204      819  0.01s        1      (gap is 64.22%)
+ *           197    1,317  0.03s        1      (gap is 62.94%)
+ *           192    1,318  0.03s        2      (gap is 61.98%)
+ *           180    1,734  0.03s        2      (gap is 59.44%)
+ *           165    2,998  0.05s        3      (gap is 55.76%)
+             165    5,048         72    3   F        -
+ + New bound is 98 (gap is 40.61%)
+ *           164    5,187  0.11s        1      (gap is 40.24%)
+ *           162    5,364  0.11s        2      (gap is 39.51%)
+ *           156    5,639  0.11s        2      (gap is 37.18%)
+ *           154    5,937  0.11s        3      (gap is 36.36%)
+ *           149    6,816  0.11s        3      (gap is 34.23%)
+ ! Using failure-directed search.
+ *           148    9,077  0.15s        2      (gap is 33.78%)
+ *           146    9,614  0.16s        2      (gap is 32.88%)
+ ! Time = 0.16s, Average fail depth = 18, Memory usage = 3.2 MB
+ ! Current bound is 98 (gap is 32.88%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           144   11,163  0.19s        2      (gap is 31.94%)
+ *           143   25,716  0.39s        3      (gap is 31.47%)
+ *           139   25,808  0.39s        3      (gap is 29.50%)
+ *           136   51,835  0.88s        3      (gap is 27.94%)
+ *           134     704k  13.83s       1      (gap is 26.87%)
+             134   1,287k         71    1   F   on Move4Drop({2,1,2,10,0,5,8})(1)
+ + New bound is 112 (gap is 16.42%)
+             134   1,290k         48    1   F   on Drop({1,2,4,18,0,1,44})
+ + New bound is 125 (gap is 6.72%)
+             134   1,290k         48    1       on Move4Drop({6,4,5,0,1,3,0})(2)
+ + New bound is 132 (gap is 1.49%)
+             134   1,290k         48    1   F   on Move4Drop({1,1,1,10,0,5,6})(1)
+ + New bound is 134 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 23 solutions found.
+ ! Best objective         : 134 (optimal - effective tol. is 0)
+ ! Best bound             : 134
+ ! Number of branches     : 5,528,930
+ ! Number of fails        : 2,569,549
+ ! Total memory usage     : 4.7 MB (4.1 MB CP Optimizer + 0.6 MB Concert)
+ ! Time spent in solve    : 26.63s (26.62s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 207,635.9
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E24	43200	26.63	134
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	26	26
+Move2Drop	2	4	1	2	46	46
+Move2Drop	1	5	1	3	78	78
+Move2Drop	2	2	2	1	68	68
+Move2Drop	1	4	2	2	92	92
+Move2Drop	1	5	2	3	134	134
+Move2Drop	1	1	3	1	82	82
+Move2Drop	2	3	3	2	100	100
+Move2Drop	2	5	3	3	134	134
+Move2Drop	2	2	4	1	12	12
+Move2Drop	1	3	4	2	38	38
+Move2Drop	1	4	4	3	64	64
+Move2Drop	2	5	4	4	90	90
+Move2Drop	2	1	5	1	36	36
+Move2Drop	1	2	5	2	50	50
+Move2Drop	2	4	5	3	74	74
+Move2Drop	1	5	5	4	106	106
+Move2Drop	1	1	6	1	4	4
+Move2Drop	1	2	6	2	30	30
+Move2Drop	1	3	6	3	58	58
+Move2Drop	2	5	6	4	112	112
+Processing	-	1	1	1	26	36
+Processing	-	4	1	2	46	64
+Processing	-	5	1	3	78	78
+Processing	-	2	2	1	68	78
+Processing	-	4	2	2	92	110
+Processing	-	5	2	3	134	134
+Processing	-	1	3	1	83	93
+Processing	-	3	3	2	100	120
+Processing	-	5	3	3	134	134
+Processing	-	2	4	1	18	28
+Processing	-	3	4	2	38	53
+Processing	-	4	4	3	64	76
+Processing	-	5	4	4	90	90
+Processing	-	1	5	1	36	46
+Processing	-	2	5	2	52	67
+Processing	-	4	5	3	79	91
+Processing	-	5	5	4	106	106
+Processing	-	1	6	1	7	17
+Processing	-	2	6	2	33	48
+Processing	-	3	6	3	61	73
+Processing	-	5	6	4	112	112
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 97 variables, 194 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 386.6 (before), 386.6 (after)
+ !  . Memory usage      : 639.4 kB (before), 639.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         97                 -
+ + New bound is 90
+ *           288      121  0.01s        1      (gap is 68.75%)
+ *           281      219  0.01s        1      (gap is 67.97%)
+ *           280      317  0.01s        1      (gap is 67.86%)
+ *           267      415  0.01s        1      (gap is 66.29%)
+ *           213      513  0.01s        1      (gap is 57.75%)
+ *           207      611  0.01s        1      (gap is 56.52%)
+ *           195      709  0.01s        1      (gap is 53.85%)
+ *           191      807  0.01s        1      (gap is 52.88%)
+ *           183      905  0.01s        1      (gap is 50.82%)
+ *           181    1,003  0.02s        1      (gap is 50.28%)
+             181    1,129         74    1   F        -
+ + New bound is 94 (gap is 48.07%)
+ *           164    1,267  0.02s        1      (gap is 42.68%)
+ *           161    1,450  0.02s        1      (gap is 41.61%)
+ *           159    1,903  0.02s        2      (gap is 40.88%)
+ *           154    2,026  0.03s        1      (gap is 38.96%)
+ *           151    2,316  0.03s        1      (gap is 37.75%)
+ *           150    2,786  0.03s        1      (gap is 37.33%)
+ *           149    3,071  0.03s        1      (gap is 36.91%)
+ *           147    2,920  0.03s        2      (gap is 36.05%)
+ ! Time = 0.03s, Average fail depth = 23, Memory usage = 3.4 MB
+ ! Current bound is 94 (gap is 36.05%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           145    3,367  0.03s        2      (gap is 35.17%)
+ *           136    3,489  0.03s        2      (gap is 30.88%)
+ *           135    5,494  0.06s        1      (gap is 30.37%)
+ ! Using failure-directed search.
+ *           134    6,674  0.07s        2      (gap is 29.85%)
+ *           133    7,258  0.08s        3      (gap is 29.32%)
+ *           132    7,343  0.08s        2      (gap is 28.79%)
+ *           128    7,550  0.08s        2      (gap is 26.56%)
+ *           124   63,152  0.79s        1      (gap is 24.19%)
+ *           122   82,866  0.81s        3      (gap is 22.95%)
+ *           121     108k  1.56s        1      (gap is 22.31%)
+             121     152k          2    1   F   on Drop({5,4,4,17,0,3,64})
+ + New bound is 95 (gap is 21.49%)
+             121     157k          1    1   F   on Drop({5,4,4,17,0,3,64})
+ + New bound is 96 (gap is 20.66%)
+             121     163k          4    1   F   on Drop({5,4,4,17,0,3,64})
+ + New bound is 97 (gap is 19.83%)
+             121     194k          1    1   F   on Drop({6,5,5,0,1,1,0})
+ + New bound is 99 (gap is 18.18%)
+             121     220k          1    1   F   on Drop({5,4,4,17,0,3,64})
+ + New bound is 104 (gap is 14.05%)
+             121     229k          1    1   F   on Move4Drop({6,1,2,10,0,5,8})(1)
+ + New bound is 105 (gap is 13.22%)
+             121     314k         17    1   F   on Move4Drop({4,1,3,15,0,5,10})(1)
+ + New bound is 108 (gap is 10.74%)
+             121     314k         17    1   F   on Move4Drop({4,1,3,15,0,5,10})(1)
+ + New bound is 110 (gap is 9.09%)
+             121     314k         17    1       on Move4Drop({6,4,1,15,0,4,64})(2)
+ + New bound is 116 (gap is 4.13%)
+             121     314k         17    1       on Move4Drop({6,5,5,0,1,1,0})(1)
+ + New bound is 118 (gap is 2.48%)
+ ! Time = 5.72s, Average fail depth = 20, Memory usage = 3.7 MB
+ ! Current bound is 118 (gap is 2.48%)
+ !          Best Branches  Non-fixed    W       Branch decision
+             121     314k         17    1   F   on Move4Drop({3,1,1,20,0,5,30})(1)
+ + New bound is 121 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 28 solutions found.
+ ! Best objective         : 121 (optimal - effective tol. is 0)
+ ! Best bound             : 121
+ ! Number of branches     : 1,561,375
+ ! Number of fails        : 696,119
+ ! Total memory usage     : 4.2 MB (3.5 MB CP Optimizer + 0.7 MB Concert)
+ ! Time spent in solve    : 5.72s (5.72s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 272,919.9
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E31	43200	5.723	121
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	24	24
+Move2Drop	1	3	1	2	50	50
+Move2Drop	1	5	1	3	85	85
+Move2Drop	2	2	2	1	26	26
+Move2Drop	2	4	2	2	66	66
+Move2Drop	2	5	2	3	103	103
+Move2Drop	2	1	3	1	50	50
+Move2Drop	2	2	3	2	85	85
+Move2Drop	1	5	3	3	121	121
+Move2Drop	2	3	4	1	10	10
+Move2Drop	2	4	4	2	38	38
+Move2Drop	1	5	4	3	62	62
+Move2Drop	1	1	5	1	42	42
+Move2Drop	2	2	5	2	58	58
+Move2Drop	1	3	5	3	76	76
+Move2Drop	2	4	5	4	97	97
+Move2Drop	2	5	5	5	121	121
+Move2Drop	1	2	6	1	8	8
+Move2Drop	2	3	6	2	32	32
+Move2Drop	1	4	6	3	56	56
+Move2Drop	2	1	6	4	76	76
+Move2Drop	1	5	6	5	103	103
+Processing	-	1	1	1	24	40
+Processing	-	3	1	2	50	65
+Processing	-	5	1	3	85	85
+Processing	-	2	2	1	36	54
+Processing	-	4	2	2	66	81
+Processing	-	5	2	3	103	103
+Processing	-	1	3	1	56	76
+Processing	-	2	3	2	85	95
+Processing	-	5	3	3	121	121
+Processing	-	3	4	1	10	25
+Processing	-	4	4	2	41	51
+Processing	-	5	4	3	62	62
+Processing	-	1	5	1	42	50
+Processing	-	2	5	2	58	68
+Processing	-	3	5	3	76	91
+Processing	-	4	5	4	97	114
+Processing	-	5	5	5	121	121
+Processing	-	2	6	1	14	24
+Processing	-	3	6	2	32	47
+Processing	-	4	6	3	58	66
+Processing	-	1	6	4	76	91
+Processing	-	5	6	5	103	103
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 97 variables, 194 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 386.6 (before), 386.6 (after)
+ !  . Memory usage      : 639.4 kB (before), 639.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         97                 -
+ + New bound is 72
+ *           186      121  0.01s        1      (gap is 61.29%)
+ *           181      219  0.01s        1      (gap is 60.22%)
+ *           180      317  0.01s        1      (gap is 60.00%)
+ *           176      415  0.01s        1      (gap is 59.09%)
+ *           146      513  0.01s        1      (gap is 50.68%)
+ *           143      611  0.01s        1      (gap is 49.65%)
+ *           142      709  0.01s        1      (gap is 49.30%)
+ *           138      807  0.01s        1      (gap is 47.83%)
+ *           132      905  0.01s        1      (gap is 45.45%)
+ *           130    1,003  0.02s        1      (gap is 44.62%)
+ *           125    1,141  0.02s        1      (gap is 42.40%)
+             125    1,170          1    1   F        -
+ + New bound is 84 (gap is 32.80%)
+ *           120    1,506  0.02s        1      (gap is 30.00%)
+ *           100    1,405  0.02s        2      (gap is 16.00%)
+ ! Using failure-directed search.
+ *            99    4,329  0.04s        2      (gap is 15.15%)
+ *            98    4,344  0.05s        3      (gap is 14.29%)
+ *            94    6,155  0.07s        2      (gap is 10.64%)
+ *            92    6,913  0.08s        1      (gap is 8.70%)
+ *            90    7,763  0.09s        2      (gap is 6.67%)
+ ! Time = 0.09s, Average fail depth = 20, Memory usage = 3.3 MB
+ ! Current bound is 84 (gap is 6.67%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *            89    8,402  0.10s        1      (gap is 5.62%)
+              89   15,668         20    1       on Move4Drop({6,5,5,0,1,1,0})(2)
+ + New bound is 88 (gap is 1.12%)
+              89   15,671         20    1   F   on Move4Drop({1,3,5,0,1,3,0})(1)
+ + New bound is 89 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 19 solutions found.
+ ! Best objective         : 89 (optimal - effective tol. is 0)
+ ! Best bound             : 89
+ ! Number of branches     : 54,672
+ ! Number of fails        : 25,451
+ ! Total memory usage     : 4.0 MB (3.3 MB CP Optimizer + 0.7 MB Concert)
+ ! Time spent in solve    : 0.22s (0.22s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 239,789.5
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E32	43200	0.23	89
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	28	28
+Move2Drop	1	3	1	2	62	62
+Move2Drop	2	5	1	3	87	87
+Move2Drop	1	2	2	1	16	16
+Move2Drop	2	4	2	2	38	38
+Move2Drop	1	5	2	3	69	69
+Move2Drop	1	1	3	1	4	4
+Move2Drop	1	2	3	2	45	45
+Move2Drop	2	5	3	3	63	63
+Move2Drop	1	3	4	1	32	32
+Move2Drop	1	4	4	2	50	50
+Move2Drop	2	5	4	3	73	73
+Move2Drop	2	1	5	1	18	18
+Move2Drop	2	2	5	2	34	34
+Move2Drop	1	3	5	3	47	47
+Move2Drop	1	4	5	4	65	65
+Move2Drop	1	5	5	5	89	89
+Move2Drop	2	2	6	1	6	6
+Move2Drop	1	3	6	2	18	18
+Move2Drop	1	4	6	3	35	35
+Move2Drop	1	1	6	4	58	58
+Move2Drop	1	5	6	5	79	79
+Processing	-	1	1	1	32	48
+Processing	-	3	1	2	63	78
+Processing	-	5	1	3	87	87
+Processing	-	2	2	1	16	34
+Processing	-	4	2	2	43	58
+Processing	-	5	2	3	69	69
+Processing	-	1	3	1	4	24
+Processing	-	2	3	2	45	55
+Processing	-	5	3	3	63	63
+Processing	-	3	4	1	33	48
+Processing	-	4	4	2	58	68
+Processing	-	5	4	3	73	73
+Processing	-	1	5	1	24	32
+Processing	-	2	5	2	34	44
+Processing	-	3	5	3	48	63
+Processing	-	4	5	4	68	85
+Processing	-	5	5	5	89	89
+Processing	-	2	6	1	6	16
+Processing	-	3	6	2	18	33
+Processing	-	4	6	3	35	43
+Processing	-	1	6	4	58	73
+Processing	-	5	6	5	79	79
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 97 variables, 194 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 386.6 (before), 386.6 (after)
+ !  . Memory usage      : 639.4 kB (before), 639.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         97                 -
+ + New bound is 76
+ *           211      121  0.01s        1      (gap is 63.98%)
+ *           197      219  0.01s        1      (gap is 61.42%)
+ *           186      317  0.01s        1      (gap is 59.14%)
+ *           182      415  0.01s        1      (gap is 58.24%)
+ *           140      513  0.01s        1      (gap is 45.71%)
+ *           138      611  0.01s        1      (gap is 44.93%)
+ *           133      786  0.01s        1      (gap is 42.86%)
+ *           126      884  0.01s        1      (gap is 39.68%)
+ *           119    1,455  0.02s        2      (gap is 36.13%)
+ *           114    2,350  0.03s        1      (gap is 33.33%)
+             114    5,267         73    3            -
+ + New bound is 84 (gap is 26.32%)
+ *           108    5,414  0.06s        3      (gap is 22.22%)
+ *           105    8,376  0.11s        2      (gap is 20.00%)
+ *           104   13,125  0.12s        3      (gap is 19.23%)
+ *           102   14,189  0.14s        3      (gap is 17.65%)
+ *           101   15,948  0.15s        2      (gap is 16.83%)
+ *            98   14,466  0.17s        1      (gap is 14.29%)
+ ! Using failure-directed search.
+ *            96   22,068  0.21s        3      (gap is 12.50%)
+              96   26,372          1    1       on Move4Drop({6,5,5,0,1,1,0})(2)
+ + New bound is 87 (gap is 9.38%)
+ ! Time = 0.46s, Average fail depth = 18, Memory usage = 3.3 MB
+ ! Current bound is 87 (gap is 9.38%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              96   26,379          1    1       on Move4Drop({6,1,2,10,0,5,8})(2)
+ + New bound is 88 (gap is 8.33%)
+              96   26,506          1    1   F   on Move4Drop({1,3,5,0,1,3,0})(1)
+ + New bound is 96 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 17 solutions found.
+ ! Best objective         : 96 (optimal - effective tol. is 0)
+ ! Best bound             : 96
+ ! Number of branches     : 127,507
+ ! Number of fails        : 62,165
+ ! Total memory usage     : 4.1 MB (3.3 MB CP Optimizer + 0.8 MB Concert)
+ ! Time spent in solve    : 0.47s (0.46s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 271,869.9
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E33	43200	0.471	96
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	16	16
+Move2Drop	1	3	1	2	40	40
+Move2Drop	2	5	1	3	62	62
+Move2Drop	1	2	2	1	18	18
+Move2Drop	1	4	2	2	56	56
+Move2Drop	2	5	2	3	77	77
+Move2Drop	2	1	3	1	30	30
+Move2Drop	1	2	3	2	62	62
+Move2Drop	1	5	3	3	82	82
+Move2Drop	2	3	4	1	10	10
+Move2Drop	1	4	4	2	27	27
+Move2Drop	1	5	4	3	44	44
+Move2Drop	1	1	5	1	31	31
+Move2Drop	2	2	5	2	42	42
+Move2Drop	2	3	5	3	58	58
+Move2Drop	2	4	5	4	75	75
+Move2Drop	2	5	5	5	94	94
+Move2Drop	1	2	6	1	4	4
+Move2Drop	2	3	6	2	24	24
+Move2Drop	1	4	6	3	42	42
+Move2Drop	1	1	6	4	60	60
+Move2Drop	1	5	6	5	96	96
+Processing	-	1	1	1	16	32
+Processing	-	3	1	2	40	55
+Processing	-	5	1	3	62	62
+Processing	-	2	2	1	18	36
+Processing	-	4	2	2	56	71
+Processing	-	5	2	3	77	77
+Processing	-	1	3	1	40	60
+Processing	-	2	3	2	62	72
+Processing	-	5	3	3	82	82
+Processing	-	3	4	1	10	25
+Processing	-	4	4	2	27	37
+Processing	-	5	4	3	44	44
+Processing	-	1	5	1	32	40
+Processing	-	2	5	2	42	52
+Processing	-	3	5	3	58	73
+Processing	-	4	5	4	75	92
+Processing	-	5	5	5	96	96
+Processing	-	2	6	1	4	14
+Processing	-	3	6	2	25	40
+Processing	-	4	6	3	42	50
+Processing	-	1	6	4	60	75
+Processing	-	5	6	5	96	96
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 97 variables, 194 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 386.6 (before), 386.6 (after)
+ !  . Memory usage      : 639.4 kB (before), 639.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         97                 -
+ + New bound is 102
+ *           306      136  0.01s        1      (gap is 66.67%)
+ *           299      313  0.01s        1      (gap is 65.89%)
+ *           233      488  0.01s        1      (gap is 56.22%)
+ *           228      661  0.01s        1      (gap is 55.26%)
+ *           205      798  0.01s        1      (gap is 50.24%)
+ *           197    1,373  0.02s        1      (gap is 48.22%)
+ *           183    1,814  0.02s        1      (gap is 44.26%)
+ *           178    2,241  0.03s        1      (gap is 42.70%)
+ *           174    4,310  0.05s        2      (gap is 41.38%)
+ ! Using failure-directed search.
+ *           157   14,941  0.17s        3      (gap is 35.03%)
+ *           155   15,097  0.19s        2      (gap is 34.19%)
+ *           154   21,730  0.24s        2      (gap is 33.77%)
+ *           150   28,205  0.31s        3      (gap is 32.00%)
+ *           149     118k  1.13s        3      (gap is 31.54%)
+ *           148     216k  2.42s        1      (gap is 31.08%)
+             148     341k          6    1   F   on Drop({5,3,3,15,0,2,46})
+ + New bound is 107 (gap is 27.70%)
+             148     360k         50    1   F   on Drop({4,1,3,15,0,5,10})
+ + New bound is 108 (gap is 27.03%)
+             148     545k         40    1   F   on Move4Drop({2,3,5,0,1,4,0})(1)
+ + New bound is 120 (gap is 18.92%)
+             148     683k          1    1   F   on Drop({5,2,2,10,0,1,36})
+ + New bound is 129 (gap is 12.84%)
+ ! Time = 12.71s, Average fail depth = 19, Memory usage = 3.9 MB
+ ! Current bound is 129 (gap is 12.84%)
+ !          Best Branches  Non-fixed    W       Branch decision
+             148     941k         79    1       on Move4Drop({3,1,1,20,0,5,30})(2)
+ + New bound is 142 (gap is 4.05%)
+             148     941k         79    1   F   on Move4Drop({4,1,3,15,0,5,10})(1)
+ + New bound is 148 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 15 solutions found.
+ ! Best objective         : 148 (optimal - effective tol. is 0)
+ ! Best bound             : 148
+ ! Number of branches     : 4,554,129
+ ! Number of fails        : 2,020,928
+ ! Total memory usage     : 4.8 MB (4.0 MB CP Optimizer + 0.9 MB Concert)
+ ! Time spent in solve    : 18.81s (18.80s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 242,137.9
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E34	43200	18.811	148
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	54	54
+Move2Drop	1	3	1	2	82	82
+Move2Drop	1	5	1	3	124	124
+Move2Drop	1	2	2	1	8	8
+Move2Drop	2	4	2	2	36	36
+Move2Drop	1	5	2	3	72	72
+Move2Drop	1	1	3	1	76	76
+Move2Drop	2	2	3	2	100	100
+Move2Drop	2	5	3	3	148	148
+Move2Drop	2	3	4	1	10	10
+Move2Drop	1	4	4	2	58	58
+Move2Drop	1	5	4	3	102	102
+Move2Drop	1	1	5	1	32	32
+Move2Drop	1	2	5	2	44	44
+Move2Drop	2	3	5	3	67	67
+Move2Drop	1	4	5	4	88	88
+Move2Drop	2	5	5	5	120	120
+Move2Drop	2	2	6	1	30	30
+Move2Drop	1	3	6	2	52	52
+Move2Drop	2	4	6	3	73	74
+Move2Drop	2	1	6	4	96	96
+Move2Drop	1	5	6	5	146	146
+Processing	-	1	1	1	56	72
+Processing	-	3	1	2	82	97
+Processing	-	5	1	3	124	124
+Processing	-	2	2	1	8	26
+Processing	-	4	2	2	36	51
+Processing	-	5	2	3	72	72
+Processing	-	1	3	1	76	96
+Processing	-	2	3	2	100	110
+Processing	-	5	3	3	148	148
+Processing	-	3	4	1	35	50
+Processing	-	4	4	2	58	68
+Processing	-	5	4	3	102	102
+Processing	-	1	5	1	32	40
+Processing	-	2	5	2	44	54
+Processing	-	3	5	3	67	82
+Processing	-	4	5	4	88	105
+Processing	-	5	5	5	120	120
+Processing	-	2	6	1	34	44
+Processing	-	3	6	2	52	67
+Processing	-	4	6	3	74	82
+Processing	-	1	6	4	96	111
+Processing	-	5	6	5	146	146
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 105 variables, 215 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 430.4 (before), 430.4 (after)
+ !  . Memory usage      : 671.9 kB (before), 671.9 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        105                 -
+ + New bound is 84
+ *           308      130  0.01s        1      (gap is 72.73%)
+ *           300      235  0.01s        1      (gap is 72.00%)
+ *           299      340  0.01s        1      (gap is 71.91%)
+ *           282      445  0.01s        1      (gap is 70.21%)
+ *           271      550  0.01s        1      (gap is 69.00%)
+ *           268      655  0.01s        1      (gap is 68.66%)
+ *           263      760  0.01s        1      (gap is 68.06%)
+ *           251      865  0.01s        1      (gap is 66.53%)
+ *           243      970  0.01s        1      (gap is 65.43%)
+ *           238    1,075  0.02s        1      (gap is 64.71%)
+             238    1,171         83    1            -
+ + New bound is 87 (gap is 63.45%)
+ *           229    1,368  0.02s        1      (gap is 62.01%)
+ *           219    1,621  0.02s        1      (gap is 60.27%)
+ *           207    1,969  0.02s        1      (gap is 57.97%)
+ *           203    2,152  0.03s        1      (gap is 57.14%)
+ *           200    2,398  0.03s        1      (gap is 56.50%)
+ *           191    2,991  0.03s        1      (gap is 54.45%)
+ *           188    3,113  0.03s        1      (gap is 53.72%)
+ *           187    3,445  0.03s        1      (gap is 53.48%)
+ ! Time = 0.03s, Average fail depth = 32, Memory usage = 3.6 MB
+ ! Current bound is 87 (gap is 53.48%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           184    2,391  0.03s        2      (gap is 52.72%)
+ *           171    2,705  0.03s        2      (gap is 49.12%)
+ *           168    2,885  0.03s        2      (gap is 48.21%)
+ *           167    3,343  0.03s        2      (gap is 47.90%)
+ *           151    3,411  0.03s        3      (gap is 42.38%)
+ *           150    3,959  0.04s        2      (gap is 42.00%)
+ ! Using failure-directed search.
+ *           149    5,170  0.05s        2      (gap is 41.61%)
+ *           147    4,703  0.06s        3      (gap is 40.82%)
+ *           144    4,778  0.06s        3      (gap is 39.58%)
+ *           143     216k  3.40s        2      (gap is 39.16%)
+ *           142     258k  3.57s        3      (gap is 38.73%)
+ *           140     233k  3.72s        2      (gap is 37.86%)
+ *           139   2,186k  40.31s       1      (gap is 37.41%)
+ *           138   3,472k  73.33s       1      (gap is 36.96%)
+ *           136   5,853k  73.35s       2      (gap is 36.03%)
+             136   3,475k         67    1   F   on Drop({4,3,1,12,0,4,52})
+ + New bound is 93 (gap is 31.62%)
+             136   4,580k          1    1   F   on Drop({5,2,2,7,0,1,22})
+ + New bound is 96 (gap is 29.41%)
+             136   5,521k          1    1   F   on Drop({5,6,5,0,1,3,0})
+ + New bound is 99 (gap is 27.21%)
+             136   5,521k          1    1   F   on Drop({4,5,5,0,1,2,0})
+ + New bound is 108 (gap is 20.59%)
+             136   7,240k         55    1   F   on Move4Drop({5,1,1,9,0,5,6})(1)
+ + New bound is 119 (gap is 12.50%)
+ ! Time = 168.37s, Average fail depth = 18, Memory usage = 7.9 MB
+ ! Current bound is 119 (gap is 12.50%)
+ !          Best Branches  Non-fixed    W       Branch decision
+             136   7,980k         72    1   F   on Drop({1,1,4,11,0,5,12})
+ + New bound is 129 (gap is 5.15%)
+             136   7,980k         72    1       on Move4Drop({2,4,5,0,1,4,0})(2)
+ + New bound is 130 (gap is 4.41%)
+             136   7,980k         72    1       on Move4Drop({5,4,2,10,0,4,56})(1)
+ + New bound is 131 (gap is 3.68%)
+             136   7,980k         72    1       on Move4Drop({1,2,1,10,0,4,33})(2)
+ + New bound is 132 (gap is 2.94%)
+             136   7,980k         72    1   F   on Drop({2,4,5,0,1,4,0})
+ + New bound is 136 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 33 solutions found.
+ ! Best objective         : 136 (optimal - effective tol. is 0)
+ ! Best bound             : 136
+ ! Number of branches     : 38,816,266
+ ! Number of fails        : 17,257,989
+ ! Total memory usage     : 9.1 MB (8.1 MB CP Optimizer + 0.9 MB Concert)
+ ! Time spent in solve    : 186.34s (186.34s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 208,303.2
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E41	43200	186.348	136
+Type	v	m	j	o	s	e	
+Move2Drop	1	4	1	1	12	12
+Move2Drop	1	1	1	2	46	46
+Move2Drop	2	2	1	3	77	77
+Move2Drop	2	5	1	4	100	100
+Move2Drop	2	3	2	1	63	63
+Move2Drop	2	2	2	2	90	90
+Move2Drop	1	4	2	3	122	122
+Move2Drop	1	5	2	4	136	136
+Move2Drop	1	2	3	1	26	26
+Move2Drop	2	3	3	2	45	45
+Move2Drop	2	1	3	3	71	71
+Move2Drop	1	3	3	4	94	94
+Move2Drop	2	5	3	5	118	118
+Move2Drop	2	2	4	1	39	39
+Move2Drop	1	4	4	2	60	60
+Move2Drop	1	1	4	3	86	86
+Move2Drop	1	2	4	4	114	114
+Move2Drop	2	5	4	5	136	136
+Move2Drop	2	1	5	1	6	6
+Move2Drop	2	2	5	2	21	21
+Move2Drop	1	4	5	3	36	36
+Move2Drop	1	2	5	4	68	68
+Move2Drop	2	3	5	5	84	84
+Move2Drop	1	5	5	6	102	102
+Processing	-	4	1	1	12	23
+Processing	-	1	1	2	46	56
+Processing	-	2	1	3	78	85
+Processing	-	5	1	4	100	100
+Processing	-	3	2	1	63	75
+Processing	-	2	2	2	90	100
+Processing	-	4	2	3	122	130
+Processing	-	5	2	4	136	136
+Processing	-	2	3	1	28	35
+Processing	-	3	3	2	45	55
+Processing	-	1	3	3	71	80
+Processing	-	3	3	4	94	102
+Processing	-	5	3	5	118	118
+Processing	-	2	4	1	39	46
+Processing	-	4	4	2	60	68
+Processing	-	1	4	3	86	98
+Processing	-	2	4	4	114	120
+Processing	-	5	4	5	136	136
+Processing	-	1	5	1	6	15
+Processing	-	2	5	2	21	28
+Processing	-	4	5	3	36	44
+Processing	-	2	5	4	68	78
+Processing	-	3	5	5	84	92
+Processing	-	5	5	6	102	102
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 105 variables, 215 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 430.4 (before), 430.4 (after)
+ !  . Memory usage      : 704.0 kB (before), 704.0 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        105                 -
+ + New bound is 70
+ *           184      130  0.01s        1      (gap is 61.96%)
+ *           180      235  0.01s        1      (gap is 61.11%)
+ *           174      490  0.01s        1      (gap is 59.77%)
+ *           170      595  0.01s        1      (gap is 58.82%)
+ *           168      700  0.01s        1      (gap is 58.33%)
+ *           164      805  0.01s        1      (gap is 57.32%)
+ *           150      910  0.01s        1      (gap is 53.33%)
+ *           144    1,015  0.02s        1      (gap is 51.39%)
+ *           125    1,542  0.02s        1      (gap is 44.00%)
+ *           117    2,371  0.03s        1      (gap is 40.17%)
+             117    5,259         81    1   F        -
+ + New bound is 77 (gap is 34.19%)
+ ! Using failure-directed search.
+ *           115    6,180  0.09s        1      (gap is 33.04%)
+ *           112    7,141  0.09s        2      (gap is 31.25%)
+ *           110    7,288  0.09s        2      (gap is 30.00%)
+ *           107    8,117  0.14s        3      (gap is 28.04%)
+ *           106    9,352  0.14s        3      (gap is 27.36%)
+ *           104    8,581  0.15s        2      (gap is 25.96%)
+ *           103   51,141  0.87s        2      (gap is 25.24%)
+ *           100   51,431  1.04s        1      (gap is 23.00%)
+ ! Time = 1.04s, Average fail depth = 15, Memory usage = 3.6 MB
+ ! Current bound is 77 (gap is 23.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+             100     421k         70    1   F   on Move4Drop({3,1,2,7,0,5,8})(1)
+ + New bound is 82 (gap is 18.00%)
+             100     428k         70    1   F   on Drop({4,1,2,7,0,5,15})
+ + New bound is 92 (gap is 8.00%)
+             100     435k         72    1       on Move4Drop({4,2,4,8,0,2,23})(2)
+ + New bound is 94 (gap is 6.00%)
+             100     436k         70    1       on Move4Drop({3,2,3,10,0,2,22})(2)
+ + New bound is 97 (gap is 3.00%)
+             100     436k         70    1   F   on Move4Drop({5,3,4,8,0,2,36})(1)
+ + New bound is 100 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 18 solutions found.
+ ! Best objective         : 100 (optimal - effective tol. is 0)
+ ! Best bound             : 100
+ ! Number of branches     : 1,852,321
+ ! Number of fails        : 886,506
+ ! Total memory usage     : 4.8 MB (3.8 MB CP Optimizer + 1.0 MB Concert)
+ ! Time spent in solve    : 9.27s (9.26s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 199,840.4
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E42	43200	9.271	100
+Type	v	m	j	o	s	e	
+Move2Drop	1	4	1	1	6	6
+Move2Drop	2	1	1	2	32	32
+Move2Drop	2	2	1	3	48	48
+Move2Drop	1	5	1	4	78	78
+Move2Drop	2	3	2	1	8	8
+Move2Drop	1	2	2	2	41	41
+Move2Drop	1	4	2	3	59	59
+Move2Drop	2	5	2	4	72	72
+Move2Drop	2	2	3	1	20	20
+Move2Drop	1	3	3	2	29	29
+Move2Drop	1	1	3	3	53	53
+Move2Drop	2	3	3	4	66	66
+Move2Drop	2	5	3	5	86	86
+Move2Drop	1	2	4	1	26	26
+Move2Drop	2	4	4	2	38	38
+Move2Drop	2	1	4	3	60	60
+Move2Drop	2	2	4	4	78	78
+Move2Drop	2	5	4	5	100	100
+Move2Drop	1	1	5	1	14	14
+Move2Drop	2	2	5	2	34	34
+Move2Drop	2	4	5	3	52	52
+Move2Drop	1	2	5	4	70	70
+Move2Drop	1	3	5	5	86	86
+Move2Drop	1	5	5	6	100	100
+Processing	-	4	1	1	6	17
+Processing	-	1	1	2	32	42
+Processing	-	2	1	3	51	58
+Processing	-	5	1	4	78	78
+Processing	-	3	2	1	8	20
+Processing	-	2	2	2	41	51
+Processing	-	4	2	3	60	68
+Processing	-	5	2	4	72	72
+Processing	-	2	3	1	20	27
+Processing	-	3	3	2	29	39
+Processing	-	1	3	3	53	62
+Processing	-	3	3	4	66	74
+Processing	-	5	3	5	86	86
+Processing	-	2	4	1	27	34
+Processing	-	4	4	2	38	46
+Processing	-	1	4	3	62	74
+Processing	-	2	4	4	80	86
+Processing	-	5	4	5	100	100
+Processing	-	1	5	1	14	23
+Processing	-	2	5	2	34	41
+Processing	-	4	5	3	52	60
+Processing	-	2	5	4	70	80
+Processing	-	3	5	5	86	94
+Processing	-	5	5	6	100	100
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 105 variables, 215 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 430.4 (before), 430.4 (after)
+ !  . Memory usage      : 704.0 kB (before), 704.0 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        105                 -
+ + New bound is 70
+ *           210      130  0.01s        1      (gap is 66.67%)
+ *           196      235  0.01s        1      (gap is 64.29%)
+ *           190      422  0.01s        1      (gap is 63.16%)
+ *           182      527  0.01s        1      (gap is 61.54%)
+ *           176      708  0.01s        1      (gap is 60.23%)
+ *           158      813  0.01s        1      (gap is 55.70%)
+ *           150      918  0.01s        1      (gap is 53.33%)
+ *           147    1,023  0.02s        1      (gap is 52.38%)
+ *           146    1,103  0.02s        1      (gap is 52.05%)
+ *           142    1,574  0.02s        1      (gap is 50.70%)
+             142    1,257          2    2   F        -
+ + New bound is 77 (gap is 45.77%)
+ *           141    1,924  0.02s        2      (gap is 45.39%)
+ *           135    1,990  0.02s        3      (gap is 42.96%)
+ *           124    2,032  0.03s        1      (gap is 37.90%)
+ *           119    2,882  0.03s        1      (gap is 35.29%)
+ *           115    4,732  0.07s        2      (gap is 33.04%)
+ *           111    5,549  0.07s        2      (gap is 30.63%)
+ ! Using failure-directed search.
+ *           109    8,746  0.12s        3      (gap is 29.36%)
+ *           104   15,253  0.18s        2      (gap is 25.96%)
+ ! Time = 0.18s, Average fail depth = 19, Memory usage = 3.5 MB
+ ! Current bound is 77 (gap is 25.96%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           103     218k  3.56s        1      (gap is 25.24%)
+ *           102     512k  9.87s        1      (gap is 24.51%)
+             102     573k         35    1   F   on Move4Drop({2,2,2,10,0,3,29})(1)
+ + New bound is 79 (gap is 22.55%)
+             102     591k          1    1       on Move4Drop({5,6,5,0,1,3,0})(2)
+ + New bound is 80 (gap is 21.57%)
+             102     591k          1    1   F   on Drop({5,5,3,8,0,2,68})
+ + New bound is 85 (gap is 16.67%)
+             102     594k         64    1   F   on Move4Drop({3,3,1,9,0,3,43})(1)
+ + New bound is 100 (gap is 1.96%)
+             102     596k         64    1   F   on Move4Drop({5,1,1,9,0,5,6})(1)
+ + New bound is 102 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 20 solutions found.
+ ! Best objective         : 102 (optimal - effective tol. is 0)
+ ! Best bound             : 102
+ ! Number of branches     : 2,590,269
+ ! Number of fails        : 1,225,677
+ ! Total memory usage     : 5.0 MB (3.9 MB CP Optimizer + 1.1 MB Concert)
+ ! Time spent in solve    : 12.03s (12.03s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 215,299.6
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E43	43200	12.033	102
+Type	v	m	j	o	s	e	
+Move2Drop	1	4	1	1	42	42
+Move2Drop	1	1	1	2	60	60
+Move2Drop	1	2	1	3	78	78
+Move2Drop	2	5	1	4	96	96
+Move2Drop	1	3	2	1	10	10
+Move2Drop	2	2	2	2	41	41
+Move2Drop	2	4	2	3	63	63
+Move2Drop	1	5	2	4	74	74
+Move2Drop	1	2	3	1	18	20
+Move2Drop	2	3	3	2	33	33
+Move2Drop	2	1	3	3	53	53
+Move2Drop	2	3	3	4	76	76
+Move2Drop	1	5	3	5	88	88
+Move2Drop	2	2	4	1	27	27
+Move2Drop	1	4	4	2	56	56
+Move2Drop	2	1	4	3	68	68
+Move2Drop	2	2	4	4	86	86
+Move2Drop	1	5	4	5	102	102
+Move2Drop	2	1	5	1	2	2
+Move2Drop	2	2	5	2	13	13
+Move2Drop	1	4	5	3	28	28
+Move2Drop	1	2	5	4	48	48
+Move2Drop	1	3	5	5	68	68
+Move2Drop	2	5	5	6	80	81
+Processing	-	4	1	1	44	55
+Processing	-	1	1	2	62	72
+Processing	-	2	1	3	78	85
+Processing	-	5	1	4	96	96
+Processing	-	3	2	1	21	33
+Processing	-	2	2	2	42	52
+Processing	-	4	2	3	64	72
+Processing	-	5	2	4	74	74
+Processing	-	2	3	1	20	27
+Processing	-	3	3	2	36	46
+Processing	-	1	3	3	53	62
+Processing	-	3	3	4	76	84
+Processing	-	5	3	5	88	88
+Processing	-	2	4	1	35	42
+Processing	-	4	4	2	56	64
+Processing	-	1	4	3	72	84
+Processing	-	2	4	4	86	92
+Processing	-	5	4	5	102	102
+Processing	-	1	5	1	2	11
+Processing	-	2	5	2	13	20
+Processing	-	4	5	3	31	39
+Processing	-	2	5	4	52	62
+Processing	-	3	5	5	68	76
+Processing	-	5	5	6	81	81
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 105 variables, 215 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 430.4 (before), 430.4 (after)
+ !  . Memory usage      : 704.0 kB (before), 704.0 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        105                 -
+ + New bound is 88
+ *           332      130  0.01s        1      (gap is 73.49%)
+ *           324      235  0.01s        1      (gap is 72.84%)
+ *           316      340  0.01s        1      (gap is 72.15%)
+ *           306      445  0.01s        1      (gap is 71.24%)
+ *           302      550  0.01s        1      (gap is 70.86%)
+ *           297      805  0.01s        1      (gap is 70.37%)
+ *           274      910  0.01s        1      (gap is 67.88%)
+ *           266    1,015  0.01s        1      (gap is 66.92%)
+ *           255    1,593  0.02s        1      (gap is 65.49%)
+ *           237    1,607  0.02s        2      (gap is 62.87%)
+ *           235    2,010  0.02s        1      (gap is 62.55%)
+ *           229    2,458  0.02s        1      (gap is 61.57%)
+ *           207    2,887  0.02s        1      (gap is 57.49%)
+ *           197    2,454  0.02s        2      (gap is 55.33%)
+ *           194    2,877  0.02s        3      (gap is 54.64%)
+             194    5,366         74    1            -
+ + New bound is 99 (gap is 48.97%)
+ *           191    5,894  0.06s        1      (gap is 48.17%)
+ *           184    5,960  0.06s        3      (gap is 46.20%)
+ *           168    6,706  0.08s        1      (gap is 41.07%)
+ ! Time = 0.08s, Average fail depth = 29, Memory usage = 3.5 MB
+ ! Current bound is 99 (gap is 41.07%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ ! Using failure-directed search.
+ *           167   1,172k  14.45s       1      (gap is 40.72%)
+ *           166   2,030k  33.86s       1      (gap is 40.36%)
+ *           164   3,527k  71.40s       1      (gap is 39.63%)
+ *           163   3,735k  76.40s       1      (gap is 39.26%)
+             163   5,398k          1    1   F   on Drop({3,5,5,0,1,3,0})
+ + New bound is 109 (gap is 33.13%)
+             163   5,483k          1    1   F   on Drop({3,5,5,0,1,3,0})
+ + New bound is 113 (gap is 30.67%)
+             163   6,707k         62    1   F   on Move4Drop({5,6,5,0,1,3,0})(1)
+ + New bound is 136 (gap is 16.56%)
+             163   7,114k         49    1       on Move4Drop({2,2,2,10,0,3,29})(1)
+ + New bound is 144 (gap is 11.66%)
+             163   7,114k         49    1       on Move4Drop({5,5,3,8,0,2,68})(2)
+ + New bound is 147 (gap is 9.82%)
+             163   7,115k         63    1       on Move4Drop({1,2,1,10,0,4,33})(2)
+ + New bound is 155 (gap is 4.91%)
+             163   7,115k         62    1       on Move4Drop({2,4,5,0,1,4,0})(1)
+ + New bound is 162 (gap is 0.61%)
+             163   7,115k         47    1   F   on Move4Drop({4,1,2,7,0,5,15})(1)
+ + New bound is 163 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 22 solutions found.
+ ! Best objective         : 163 (optimal - effective tol. is 0)
+ ! Best bound             : 163
+ ! Number of branches     : 35,834,696
+ ! Number of fails        : 15,800,562
+ ! Total memory usage     : 9.0 MB (7.8 MB CP Optimizer + 1.1 MB Concert)
+ ! Time spent in solve    : 161.16s (161.15s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 222,354.8
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E44	43200	161.162	163
+Type	v	m	j	o	s	e	
+Move2Drop	2	4	1	1	51	51
+Move2Drop	2	1	1	2	83	83
+Move2Drop	1	2	1	3	97	97
+Move2Drop	1	5	1	4	141	141
+Move2Drop	1	3	2	1	10	10
+Move2Drop	1	2	2	2	48	48
+Move2Drop	2	4	2	3	69	69
+Move2Drop	2	5	2	4	107	107
+Move2Drop	1	2	3	1	30	30
+Move2Drop	1	3	3	2	56	56
+Move2Drop	1	1	3	3	93	93
+Move2Drop	2	3	3	4	117	117
+Move2Drop	1	5	3	5	163	163
+Move2Drop	1	2	4	1	76	77
+Move2Drop	2	4	4	2	93	93
+Move2Drop	1	1	4	3	117	117
+Move2Drop	2	2	4	4	137	137
+Move2Drop	2	5	4	5	163	163
+Move2Drop	2	1	5	1	4	4
+Move2Drop	2	2	5	2	17	17
+Move2Drop	1	4	5	3	36	36
+Move2Drop	2	2	5	4	63	63
+Move2Drop	1	3	5	5	85	85
+Move2Drop	2	5	5	6	129	129
+Processing	-	4	1	1	51	62
+Processing	-	1	1	2	83	93
+Processing	-	2	1	3	97	104
+Processing	-	5	1	4	141	141
+Processing	-	3	2	1	14	26
+Processing	-	2	2	2	48	58
+Processing	-	4	2	3	71	79
+Processing	-	5	2	4	107	107
+Processing	-	2	3	1	35	42
+Processing	-	3	3	2	75	85
+Processing	-	1	3	3	100	109
+Processing	-	3	3	4	117	125
+Processing	-	5	3	5	163	163
+Processing	-	2	4	1	79	86
+Processing	-	4	4	2	93	101
+Processing	-	1	4	3	121	133
+Processing	-	2	4	4	137	143
+Processing	-	5	4	5	163	163
+Processing	-	1	5	1	4	13
+Processing	-	2	5	2	22	29
+Processing	-	4	5	3	43	51
+Processing	-	2	5	4	63	73
+Processing	-	3	5	5	85	93
+Processing	-	5	5	6	129	129
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 81 variables, 161 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 301.4 (before), 301.4 (after)
+ !  . Memory usage      : 702.7 kB (before), 702.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         81                 -
+ + New bound is 69
+ *           220      100  0.01s        1      (gap is 68.64%)
+ *           202      181  0.01s        1      (gap is 65.84%)
+ *           197      318  0.01s        1      (gap is 64.97%)
+ *           185      399  0.01s        1      (gap is 62.70%)
+ *           180      480  0.01s        1      (gap is 61.67%)
+ *           178      561  0.01s        1      (gap is 61.24%)
+ *           165      642  0.01s        1      (gap is 58.18%)
+ *           152      723  0.01s        1      (gap is 54.61%)
+ *           137    1,310  0.01s        1      (gap is 49.64%)
+ *           129    1,744  0.01s        1      (gap is 46.51%)
+ *           120    1,323  0.01s        2      (gap is 42.50%)
+ *           118    1,744  0.01s        3      (gap is 41.53%)
+             118    5,099         60    3   F        -
+ + New bound is 75 (gap is 36.44%)
+ ! Using failure-directed search.
+ *           116    6,124  0.06s        3      (gap is 35.34%)
+ *           115    6,374  0.06s        2      (gap is 34.78%)
+ *           112   27,933  0.24s        3      (gap is 33.04%)
+ *           111   30,395  0.29s        3      (gap is 32.43%)
+ *           110   42,550  0.54s        3      (gap is 31.82%)
+             110     325k          1    1       on Move4Drop({3,4,5,0,1,1,0})(2)
+ + New bound is 81 (gap is 26.36%)
+ ! Time = 5.37s, Average fail depth = 16, Memory usage = 3.4 MB
+ ! Current bound is 81 (gap is 26.36%)
+ !          Best Branches  Non-fixed    W       Branch decision
+             110     349k         36    1   F   on Move4Drop({5,1,3,3,0,5,10})(1)
+ + New bound is 87 (gap is 20.91%)
+             110     358k         11    1   F   on Move4Drop({1,1,1,6,0,5,6})(1)
+ + New bound is 90 (gap is 18.18%)
+             110     370k          1    1       on Move4Drop({3,2,4,3,0,3,25})(1)
+ + New bound is 92 (gap is 16.36%)
+             110     370k          1    1   F   on Drop({2,4,5,0,1,2,0})
+ + New bound is 97 (gap is 11.82%)
+             110     374k          4    1   F   on Drop({5,3,5,0,1,1,0})
+ + New bound is 103 (gap is 6.36%)
+             110     374k          4    1   F   on Drop({3,4,5,0,1,1,0})
+ + New bound is 106 (gap is 3.64%)
+             110     374k          4    1   F   on Move4Drop({2,4,5,0,1,2,0})(1)
+ + New bound is 110 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 17 solutions found.
+ ! Best objective         : 110 (optimal - effective tol. is 0)
+ ! Best bound             : 110
+ ! Number of branches     : 1,551,556
+ ! Number of fails        : 737,532
+ ! Total memory usage     : 4.6 MB (3.4 MB CP Optimizer + 1.2 MB Concert)
+ ! Time spent in solve    : 6.26s (6.26s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 247,733.7
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E51	43200	6.264	110
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	6	6
+Move2Drop	2	2	1	2	30	30
+Move2Drop	2	4	1	3	72	72
+Move2Drop	2	5	1	4	108	108
+Move2Drop	2	1	2	1	24	24
+Move2Drop	2	3	2	2	52	52
+Move2Drop	2	2	2	3	64	64
+Move2Drop	2	5	2	4	90	90
+Move2Drop	2	3	3	1	10	10
+Move2Drop	1	4	3	2	34	34
+Move2Drop	1	1	3	3	62	62
+Move2Drop	1	5	3	4	92	92
+Move2Drop	1	4	4	1	52	52
+Move2Drop	2	2	4	2	80	80
+Move2Drop	1	5	4	3	110	110
+Move2Drop	1	3	5	1	28	28
+Move2Drop	2	1	5	2	44	44
+Move2Drop	1	5	5	3	74	74
+Processing	-	1	1	1	6	12
+Processing	-	2	1	2	30	42
+Processing	-	4	1	3	72	81
+Processing	-	5	1	4	108	108
+Processing	-	1	2	1	24	42
+Processing	-	3	2	2	52	58
+Processing	-	2	2	3	64	79
+Processing	-	5	2	4	90	90
+Processing	-	3	3	1	10	19
+Processing	-	4	3	2	34	37
+Processing	-	1	3	3	62	74
+Processing	-	5	3	4	92	92
+Processing	-	4	4	1	52	58
+Processing	-	2	4	2	80	95
+Processing	-	5	4	3	110	110
+Processing	-	3	5	1	28	31
+Processing	-	1	5	2	44	53
+Processing	-	5	5	3	92	92
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 81 variables, 161 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 301.4 (before), 301.4 (after)
+ !  . Memory usage      : 702.7 kB (before), 702.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         81                 -
+ + New bound is 67
+ *           172      100  0.01s        1      (gap is 61.05%)
+ *           162      181  0.01s        1      (gap is 58.64%)
+ *           155      262  0.01s        1      (gap is 56.77%)
+ *           153      343  0.01s        1      (gap is 56.21%)
+ *           149      424  0.01s        1      (gap is 55.03%)
+ *           148      505  0.01s        1      (gap is 54.73%)
+ *           147      586  0.01s        1      (gap is 54.42%)
+ *           143      667  0.01s        1      (gap is 53.15%)
+ *           142      748  0.01s        1      (gap is 52.82%)
+ *           135      829  0.01s        1      (gap is 50.37%)
+ *           133      896  0.01s        1      (gap is 49.62%)
+ *           119      969  0.01s        1      (gap is 43.70%)
+             119      948          3    2   F        -
+ + New bound is 72 (gap is 39.50%)
+ *           116    1,154  0.02s        1      (gap is 37.93%)
+ *           105    1,593  0.02s        1      (gap is 31.43%)
+ *           101    1,797  0.02s        1      (gap is 28.71%)
+ *           100    1,863  0.02s        1      (gap is 28.00%)
+ *            95    1,579  0.02s        3      (gap is 24.21%)
+ *            92    1,669  0.02s        3      (gap is 21.74%)
+ ! Time = 0.02s, Average fail depth = 21, Memory usage = 3.2 MB
+ ! Current bound is 72 (gap is 21.74%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *            84    1,843  0.02s        3      (gap is 14.29%)
+ ! Using failure-directed search.
+ *            83   14,402  0.24s        1      (gap is 13.25%)
+ *            81   26,601  0.50s        1      (gap is 11.11%)
+              81   43,746          1    1   F   on Move4Drop({1,1,1,6,0,5,6})(1)
+ + New bound is 75 (gap is 7.41%)
+              81   48,086         59    1       on Move4Drop({5,2,1,9,0,3,30})(2)
+ + New bound is 77 (gap is 4.94%)
+              81   49,163         55    1       on Move4Drop({4,3,5,0,1,2,0})(2)
+ + New bound is 80 (gap is 1.23%)
+              81   49,164         51    1   F   on Move4Drop({2,3,2,15,0,3,45})(1)
+ + New bound is 81 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 21 solutions found.
+ ! Best objective         : 81 (optimal - effective tol. is 0)
+ ! Best bound             : 81
+ ! Number of branches     : 196,165
+ ! Number of fails        : 107,889
+ ! Total memory usage     : 4.4 MB (3.1 MB CP Optimizer + 1.3 MB Concert)
+ ! Time spent in solve    : 1.01s (1.01s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 194,030.7
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E52	43200	1.013	81
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	32	32
+Move2Drop	2	2	1	2	40	40
+Move2Drop	2	4	1	3	58	58
+Move2Drop	2	5	1	4	71	71
+Move2Drop	2	1	2	1	14	14
+Move2Drop	1	3	2	2	36	36
+Move2Drop	2	2	2	3	54	54
+Move2Drop	1	5	2	4	81	81
+Move2Drop	1	3	3	1	8	8
+Move2Drop	1	4	3	2	24	24
+Move2Drop	1	1	3	3	47	47
+Move2Drop	2	5	3	4	81	81
+Move2Drop	2	4	4	1	6	6
+Move2Drop	2	2	4	2	26	26
+Move2Drop	1	5	4	3	67	67
+Move2Drop	1	3	5	1	22	22
+Move2Drop	2	1	5	2	38	38
+Move2Drop	1	5	5	3	53	53
+Processing	-	1	1	1	32	38
+Processing	-	2	1	2	41	53
+Processing	-	4	1	3	58	67
+Processing	-	5	1	4	71	71
+Processing	-	1	2	1	14	32
+Processing	-	3	2	2	36	42
+Processing	-	2	2	3	56	71
+Processing	-	5	2	4	81	81
+Processing	-	3	3	1	11	20
+Processing	-	4	3	2	24	27
+Processing	-	1	3	3	61	73
+Processing	-	5	3	4	81	81
+Processing	-	4	4	1	6	12
+Processing	-	2	4	2	26	41
+Processing	-	5	4	3	67	67
+Processing	-	3	5	1	25	28
+Processing	-	1	5	2	38	47
+Processing	-	5	5	3	53	53
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 81 variables, 161 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 301.4 (before), 301.4 (after)
+ !  . Memory usage      : 702.7 kB (before), 702.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         81                 -
+ + New bound is 67
+ *           182      100  0.01s        1      (gap is 63.19%)
+ *           168      181  0.01s        1      (gap is 60.12%)
+ *           154      262  0.01s        1      (gap is 56.49%)
+ *           148      393  0.01s        1      (gap is 54.73%)
+ *           142      474  0.01s        1      (gap is 52.82%)
+ *           138      617  0.01s        1      (gap is 51.45%)
+ *           133      698  0.01s        1      (gap is 49.62%)
+ *           124      779  0.01s        1      (gap is 45.97%)
+ *           107    1,272  0.01s        1      (gap is 37.38%)
+ *            95    2,556  0.02s        3      (gap is 29.47%)
+ *            94    3,375  0.04s        3      (gap is 28.72%)
+              94    5,007         68    2   F        -
+ + New bound is 73 (gap is 22.34%)
+ ! Using failure-directed search.
+ *            93    6,683  0.09s        2      (gap is 21.51%)
+ *            92    8,443  0.10s        2      (gap is 20.65%)
+ *            91   21,078  0.38s        1      (gap is 19.78%)
+ *            89   31,520  0.56s        1      (gap is 17.98%)
+              89   59,092         50    1       on Move4Drop({5,3,5,0,1,1,0})(2)
+ + New bound is 76 (gap is 14.61%)
+              89   60,317         56    1   F   on Move4Drop({2,4,5,0,1,2,0})(1)
+ + New bound is 81 (gap is 8.99%)
+              89   67,402         22    1   F   on Move4Drop({1,4,5,0,1,4,0})(1)
+ + New bound is 87 (gap is 2.25%)
+ ! Time = 1.26s, Average fail depth = 15, Memory usage = 3.2 MB
+ ! Current bound is 87 (gap is 2.25%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              89   67,404         22    1   F   on Move4Drop({2,2,3,6,0,1,32})(1)
+ + New bound is 89 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 15 solutions found.
+ ! Best objective         : 89 (optimal - effective tol. is 0)
+ ! Best bound             : 89
+ ! Number of branches     : 315,405
+ ! Number of fails        : 161,312
+ ! Total memory usage     : 4.4 MB (3.1 MB CP Optimizer + 1.3 MB Concert)
+ ! Time spent in solve    : 1.26s (1.26s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 249,135.1
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E53	43200	1.268	89
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	17	17
+Move2Drop	2	2	1	2	35	35
+Move2Drop	2	4	1	3	57	57
+Move2Drop	2	5	1	4	73	75
+Move2Drop	2	1	2	1	2	2
+Move2Drop	1	3	2	2	28	28
+Move2Drop	2	2	2	3	49	49
+Move2Drop	1	5	2	4	75	75
+Move2Drop	1	3	3	1	11	11
+Move2Drop	1	4	3	2	30	30
+Move2Drop	1	1	3	3	49	49
+Move2Drop	1	5	3	4	89	89
+Move2Drop	1	4	4	1	44	45
+Move2Drop	2	2	4	2	63	63
+Move2Drop	2	5	4	3	89	89
+Move2Drop	2	3	5	1	24	24
+Move2Drop	2	1	5	2	33	33
+Move2Drop	1	5	5	3	61	61
+Processing	-	1	1	1	20	26
+Processing	-	2	1	2	35	47
+Processing	-	4	1	3	59	68
+Processing	-	5	1	4	75	75
+Processing	-	1	2	1	2	20
+Processing	-	3	2	2	34	40
+Processing	-	2	2	3	49	64
+Processing	-	5	2	4	75	75
+Processing	-	3	3	1	13	22
+Processing	-	4	3	2	31	34
+Processing	-	1	3	3	49	61
+Processing	-	5	3	4	89	89
+Processing	-	4	4	1	50	56
+Processing	-	2	4	2	64	79
+Processing	-	5	4	3	89	89
+Processing	-	3	5	1	24	27
+Processing	-	1	5	2	33	42
+Processing	-	5	5	3	61	61
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 81 variables, 161 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 301.4 (before), 301.4 (after)
+ !  . Memory usage      : 702.7 kB (before), 702.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         81                 -
+ + New bound is 75
+ *           308      100  0.01s        1      (gap is 75.65%)
+ *           280      181  0.01s        1      (gap is 73.21%)
+ *           279      262  0.01s        1      (gap is 73.12%)
+ *           252      343  0.01s        1      (gap is 70.24%)
+ *           194      424  0.01s        1      (gap is 61.34%)
+ *           193      505  0.01s        1      (gap is 61.14%)
+ *           188      726  0.01s        1      (gap is 60.11%)
+ *           176    1,233  0.02s        1      (gap is 57.39%)
+ *           169    1,646  0.02s        1      (gap is 55.62%)
+ *           161    1,665  0.02s        2      (gap is 53.42%)
+ *           160    1,718  0.02s        3      (gap is 53.13%)
+ *           158    2,159  0.03s        3      (gap is 52.53%)
+ *           147    3,000  0.04s        3      (gap is 48.98%)
+             147    4,934         15    1   F        -
+ + New bound is 82 (gap is 44.22%)
+ *           144    5,154  0.06s        3      (gap is 43.06%)
+ *           142    5,725  0.06s        3      (gap is 42.25%)
+ *           141    5,212  0.07s        1      (gap is 41.84%)
+ ! Using failure-directed search.
+ *           140    7,944  0.10s        2      (gap is 41.43%)
+ *           137   16,141  0.17s        2      (gap is 40.15%)
+ ! Time = 0.17s, Average fail depth = 15, Memory usage = 3.1 MB
+ ! Current bound is 82 (gap is 40.15%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           136   34,854  0.36s        3      (gap is 39.71%)
+             136     108k          1    1   F   on Drop({2,4,5,0,1,2,0})
+ + New bound is 92 (gap is 32.35%)
+ *           134     146k  2.28s        1      (gap is 31.34%)
+             134     287k          1    1   F   on Drop({2,4,5,0,1,2,0})
+ + New bound is 95 (gap is 29.10%)
+             134     315k         49    1   F   on Drop({2,4,5,0,1,2,0})
+ + New bound is 99 (gap is 26.12%)
+             134     318k         42    1   F   on Move4Drop({2,4,5,0,1,2,0})(1)
+ + New bound is 100 (gap is 25.37%)
+             134     459k         51    1   F   on Move4Drop({3,1,3,9,0,5,13})(1)
+ + New bound is 112 (gap is 16.42%)
+             134     465k         26    1   F   on Move4Drop({5,1,3,3,0,5,10})(1)
+ + New bound is 120 (gap is 10.45%)
+             134     467k         42    1       on Move4Drop({3,4,5,0,1,1,0})(2)
+ + New bound is 122 (gap is 8.96%)
+             134     469k         51    1   F   on Move4Drop({3,1,3,9,0,5,13})(1)
+ + New bound is 134 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 20 solutions found.
+ ! Best objective         : 134 (optimal - effective tol. is 0)
+ ! Best bound             : 134
+ ! Number of branches     : 1,926,235
+ ! Number of fails        : 918,260
+ ! Total memory usage     : 4.9 MB (3.5 MB CP Optimizer + 1.4 MB Concert)
+ ! Time spent in solve    : 8.22s (8.22s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 234,221.2
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E54	43200	8.227	134
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	4	4
+Move2Drop	2	2	1	2	14	14
+Move2Drop	1	4	1	3	36	36
+Move2Drop	2	5	1	4	70	70
+Move2Drop	1	1	2	1	26	26
+Move2Drop	1	3	2	2	56	56
+Move2Drop	1	2	2	3	68	68
+Move2Drop	1	5	2	4	106	106
+Move2Drop	1	3	3	1	10	10
+Move2Drop	2	4	3	2	28	28
+Move2Drop	1	1	3	3	50	50
+Move2Drop	2	5	3	4	109	109
+Move2Drop	2	4	4	1	56	56
+Move2Drop	1	2	4	2	86	86
+Move2Drop	1	5	4	3	134	134
+Move2Drop	2	3	5	1	80	80
+Move2Drop	2	1	5	2	91	91
+Move2Drop	2	5	5	3	131	131
+Processing	-	1	1	1	4	10
+Processing	-	2	1	2	18	30
+Processing	-	4	1	3	36	45
+Processing	-	5	1	4	70	70
+Processing	-	1	2	1	26	44
+Processing	-	3	2	2	56	62
+Processing	-	2	2	3	68	83
+Processing	-	5	2	4	106	106
+Processing	-	3	3	1	13	22
+Processing	-	4	3	2	32	35
+Processing	-	1	3	3	50	62
+Processing	-	5	3	4	109	109
+Processing	-	4	4	1	59	65
+Processing	-	2	4	2	90	105
+Processing	-	5	4	3	134	134
+Processing	-	3	5	1	80	83
+Processing	-	1	5	2	91	100
+Processing	-	5	5	3	131	131
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 105 variables, 212 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 430.4 (before), 430.4 (after)
+ !  . Memory usage      : 705.0 kB (before), 705.0 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        105                 -
+ + New bound is 78
+ *           304      131  0.01s        1      (gap is 74.34%)
+ *           286      237  0.01s        1      (gap is 72.73%)
+ *           280      343  0.01s        1      (gap is 72.14%)
+ *           268      449  0.01s        1      (gap is 70.90%)
+ *           214      555  0.01s        1      (gap is 63.55%)
+ *           210      742  0.01s        1      (gap is 62.86%)
+ *           201      848  0.01s        1      (gap is 61.19%)
+ *           196      954  0.01s        1      (gap is 60.20%)
+ *           189    1,060  0.02s        1      (gap is 58.73%)
+ *           184    1,559  0.02s        1      (gap is 57.61%)
+ *           183    2,388  0.03s        1      (gap is 57.38%)
+ *           176    2,446  0.03s        2      (gap is 55.68%)
+ *           175    2,897  0.03s        2      (gap is 55.43%)
+ *           169    3,349  0.03s        2      (gap is 53.85%)
+ *           167    3,766  0.04s        2      (gap is 53.29%)
+             167    5,287         78    1   F        -
+ + New bound is 113 (gap is 32.34%)
+ *           163    5,582  0.06s        3      (gap is 30.67%)
+ *           157    5,524  0.08s        1      (gap is 28.03%)
+ *           156    5,685  0.08s        1      (gap is 27.56%)
+ ! Time = 0.08s, Average fail depth = 25, Memory usage = 3.6 MB
+ ! Current bound is 113 (gap is 27.56%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           154    5,847  0.08s        1      (gap is 26.62%)
+ *           141    6,079  0.08s        1      (gap is 19.86%)
+ ! Using failure-directed search.
+ *           140   10,719  0.11s        2      (gap is 19.29%)
+ *           138   12,989  0.15s        3      (gap is 18.12%)
+ *           136   14,213  0.17s        3      (gap is 16.91%)
+ *           135   32,942  0.40s        3      (gap is 16.30%)
+ *           134   16,582  0.40s        1      (gap is 15.67%)
+ *           133   39,274  0.42s        2      (gap is 15.04%)
+ *           132     145k  1.69s        2      (gap is 14.39%)
+ *           129     302k  3.63s        3      (gap is 12.40%)
+             129   1,463k         21    1   F   on Move4Drop({1,4,5,0,1,4,0})(1)
+ + New bound is 120 (gap is 6.98%)
+             129   1,483k         72    1   F   on Move4Drop({2,2,2,20,0,1,50})(1)
+ + New bound is 129 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 28 solutions found.
+ ! Best objective         : 129 (optimal - effective tol. is 0)
+ ! Best bound             : 129
+ ! Number of branches     : 6,423,133
+ ! Number of fails        : 2,768,045
+ ! Total memory usage     : 5.7 MB (4.3 MB CP Optimizer + 1.4 MB Concert)
+ ! Time spent in solve    : 25.66s (25.66s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 250,258.4
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E61	43200	25.668	129
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	38	38
+Move2Drop	2	2	1	2	53	53
+Move2Drop	1	4	1	3	80	80
+Move2Drop	2	5	1	4	97	97
+Move2Drop	2	1	2	1	46	46
+Move2Drop	1	2	2	2	72	72
+Move2Drop	1	4	2	3	102	102
+Move2Drop	2	5	2	4	121	121
+Move2Drop	1	2	3	1	8	8
+Move2Drop	2	3	3	2	32	32
+Move2Drop	2	4	3	3	65	65
+Move2Drop	1	5	3	4	86	86
+Move2Drop	2	2	4	1	26	26
+Move2Drop	2	3	4	2	59	59
+Move2Drop	2	4	4	3	91	91
+Move2Drop	1	5	4	4	108	108
+Move2Drop	1	1	5	1	64	64
+Move2Drop	2	3	5	2	85	85
+Move2Drop	2	4	5	3	113	113
+Move2Drop	1	5	5	4	129	129
+Move2Drop	2	1	6	1	6	6
+Move2Drop	1	3	6	2	24	24
+Move2Drop	1	4	6	3	52	52
+Move2Drop	2	5	6	4	71	71
+Processing	-	1	1	1	38	47
+Processing	-	2	1	2	53	64
+Processing	-	4	1	3	80	87
+Processing	-	5	1	4	97	97
+Processing	-	1	2	1	47	66
+Processing	-	2	2	2	72	92
+Processing	-	4	2	3	102	115
+Processing	-	5	2	4	121	121
+Processing	-	2	3	1	8	22
+Processing	-	3	3	2	36	56
+Processing	-	4	3	3	65	74
+Processing	-	5	3	4	86	86
+Processing	-	2	4	1	26	40
+Processing	-	3	4	2	59	79
+Processing	-	4	4	3	91	100
+Processing	-	5	4	4	108	108
+Processing	-	1	5	1	66	77
+Processing	-	3	5	2	85	101
+Processing	-	4	5	3	115	123
+Processing	-	5	5	4	129	129
+Processing	-	1	6	1	6	16
+Processing	-	3	6	2	24	36
+Processing	-	4	6	3	52	62
+Processing	-	5	6	4	71	71
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 105 variables, 212 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 430.4 (before), 430.4 (after)
+ !  . Memory usage      : 705.0 kB (before), 705.0 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        105                 -
+ + New bound is 66
+ *           174      131  0.01s        1      (gap is 62.07%)
+ *           168      237  0.01s        1      (gap is 60.71%)
+ *           156      343  0.01s        1      (gap is 57.69%)
+ *           153      493  0.01s        1      (gap is 56.86%)
+ *           150      599  0.01s        1      (gap is 56.00%)
+ *           143      705  0.01s        1      (gap is 53.85%)
+ *           140      811  0.01s        1      (gap is 52.86%)
+ *           138      917  0.01s        1      (gap is 52.17%)
+ *           136    1,023  0.02s        1      (gap is 51.47%)
+ *           128    1,518  0.02s        1      (gap is 48.44%)
+ *           114    1,947  0.02s        1      (gap is 42.11%)
+ *           108    2,776  0.04s        1      (gap is 38.89%)
+             108    5,329         51    3   F        -
+ + New bound is 101 (gap is 6.48%)
+ *           107    5,404  0.14s        2      (gap is 5.61%)
+ *           106    7,077  0.14s        2      (gap is 4.72%)
+ ! Using failure-directed search.
+ *           102   10,356  0.16s        2      (gap is 0.98%)
+             102    6,266          2    1   F   on Drop({5,3,4,8,0,3,92})
+ + New bound is 102 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 15 solutions found.
+ ! Best objective         : 102 (optimal - effective tol. is 0)
+ ! Best bound             : 102
+ ! Number of branches     : 31,267
+ ! Number of fails        : 12,896
+ ! Total memory usage     : 4.9 MB (3.4 MB CP Optimizer + 1.5 MB Concert)
+ ! Time spent in solve    : 0.18s (0.18s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 167,203.2
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E62	43200	0.189	102
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	32	32
+Move2Drop	2	2	1	2	55	55
+Move2Drop	2	4	1	3	73	73
+Move2Drop	1	5	1	4	93	93
+Move2Drop	2	1	2	1	14	14
+Move2Drop	2	2	2	2	35	35
+Move2Drop	2	4	2	3	59	59
+Move2Drop	1	5	2	4	78	78
+Move2Drop	1	2	3	1	20	20
+Move2Drop	1	3	3	2	36	36
+Move2Drop	1	4	3	3	88	88
+Move2Drop	2	5	3	4	102	102
+Move2Drop	1	2	4	1	6	6
+Move2Drop	1	3	4	2	22	22
+Move2Drop	1	4	4	3	52	52
+Move2Drop	2	5	4	4	77	77
+Move2Drop	2	1	5	1	28	28
+Move2Drop	1	3	5	2	50	50
+Move2Drop	1	4	5	3	68	68
+Move2Drop	2	5	5	4	87	87
+Move2Drop	2	1	6	1	4	4
+Move2Drop	2	3	6	2	18	18
+Move2Drop	2	4	6	3	39	39
+Move2Drop	2	5	6	4	63	63
+Processing	-	1	1	1	44	53
+Processing	-	2	1	2	55	66
+Processing	-	4	1	3	82	89
+Processing	-	5	1	4	93	93
+Processing	-	1	2	1	14	33
+Processing	-	2	2	2	35	55
+Processing	-	4	2	3	61	74
+Processing	-	5	2	4	78	78
+Processing	-	2	3	1	20	34
+Processing	-	3	3	2	66	86
+Processing	-	4	3	3	89	98
+Processing	-	5	3	4	102	102
+Processing	-	2	4	1	6	20
+Processing	-	3	4	2	30	50
+Processing	-	4	4	3	52	61
+Processing	-	5	4	4	77	77
+Processing	-	1	5	1	33	44
+Processing	-	3	5	2	50	66
+Processing	-	4	5	3	74	82
+Processing	-	5	5	4	87	87
+Processing	-	1	6	1	4	14
+Processing	-	3	6	2	18	30
+Processing	-	4	6	3	39	49
+Processing	-	5	6	4	63	63
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 105 variables, 212 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 430.4 (before), 430.4 (after)
+ !  . Memory usage      : 705.0 kB (before), 705.0 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        105                 -
+ + New bound is 66
+ *           177      131  0.01s        1      (gap is 62.71%)
+ *           176      237  0.01s        1      (gap is 62.50%)
+ *           175      343  0.01s        1      (gap is 62.29%)
+ *           174      449  0.01s        1      (gap is 62.07%)
+ *           169      555  0.01s        1      (gap is 60.95%)
+ *           162      661  0.01s        1      (gap is 59.26%)
+ *           159      767  0.01s        1      (gap is 58.49%)
+ *           152      873  0.01s        1      (gap is 56.58%)
+ *           151      979  0.01s        1      (gap is 56.29%)
+ *           146    1,085  0.02s        1      (gap is 54.79%)
+             146    1,169         93    1   F        -
+ + New bound is 101 (gap is 30.82%)
+ *           145    1,345  0.02s        1      (gap is 30.34%)
+ *           144    1,463  0.02s        1      (gap is 29.86%)
+ *           138    1,514  0.02s        1      (gap is 26.81%)
+ *           131    1,740  0.02s        1      (gap is 22.90%)
+ *           129    2,320  0.03s        1      (gap is 21.71%)
+ *           123    2,465  0.03s        1      (gap is 17.89%)
+ *           122    2,619  0.03s        1      (gap is 17.21%)
+ *           121    2,792  0.03s        1      (gap is 16.53%)
+ ! Time = 0.03s, Average fail depth = 27, Memory usage = 3.6 MB
+ ! Current bound is 101 (gap is 16.53%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           120    2,862  0.03s        1      (gap is 15.83%)
+ *           119    3,012  0.03s        1      (gap is 15.13%)
+ *           112    3,361  0.03s        1      (gap is 9.82%)
+ ! Using failure-directed search.
+ *           111    4,546  0.05s        1      (gap is 9.01%)
+ *           110    4,582  0.05s        1      (gap is 8.18%)
+ *           108    4,833  0.05s        1      (gap is 6.48%)
+ *           107    7,342  0.13s        1      (gap is 5.61%)
+ *           106   20,076  0.25s        3      (gap is 4.72%)
+ *           105   18,652  0.43s        1      (gap is 3.81%)
+             105   22,692         29    1       on Move4Drop({5,4,5,0,1,4,0})(2)
+ + New bound is 102 (gap is 2.86%)
+             105   23,602         17    1   F   on Move4Drop({4,1,2,14,0,5,8})(1)
+ + New bound is 105 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 27 solutions found.
+ ! Best objective         : 105 (optimal - effective tol. is 0)
+ ! Best bound             : 105
+ ! Number of branches     : 130,603
+ ! Number of fails        : 60,266
+ ! Total memory usage     : 5.0 MB (3.4 MB CP Optimizer + 1.6 MB Concert)
+ ! Time spent in solve    : 0.55s (0.55s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 234,897.5
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E63	43200	0.558	105
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	35	35
+Move2Drop	1	2	1	2	58	58
+Move2Drop	1	4	1	3	83	83
+Move2Drop	2	5	1	4	96	96
+Move2Drop	2	1	2	1	2	2
+Move2Drop	2	2	2	2	23	23
+Move2Drop	1	4	2	3	51	51
+Move2Drop	1	5	2	4	70	70
+Move2Drop	1	2	3	1	4	4
+Move2Drop	1	3	3	2	24	24
+Move2Drop	2	4	3	3	46	46
+Move2Drop	2	5	3	4	62	62
+Move2Drop	1	2	4	1	18	18
+Move2Drop	2	3	4	2	72	72
+Move2Drop	2	4	4	3	94	94
+Move2Drop	1	5	4	4	105	105
+Move2Drop	2	1	5	1	16	16
+Move2Drop	2	3	5	2	43	44
+Move2Drop	1	4	5	3	66	66
+Move2Drop	2	5	5	4	78	78
+Move2Drop	1	1	6	1	37	37
+Move2Drop	2	3	6	2	58	58
+Move2Drop	2	4	6	3	74	74
+Move2Drop	1	5	6	4	88	88
+Processing	-	1	1	1	47	56
+Processing	-	2	1	2	58	69
+Processing	-	4	1	3	86	93
+Processing	-	5	1	4	96	96
+Processing	-	1	2	1	2	21
+Processing	-	2	2	2	23	43
+Processing	-	4	2	3	55	68
+Processing	-	5	2	4	70	70
+Processing	-	2	3	1	4	18
+Processing	-	3	3	2	24	44
+Processing	-	4	3	3	46	55
+Processing	-	5	3	4	62	62
+Processing	-	2	4	1	43	57
+Processing	-	3	4	2	72	92
+Processing	-	4	4	3	94	103
+Processing	-	5	4	4	105	105
+Processing	-	1	5	1	24	35
+Processing	-	3	5	2	44	60
+Processing	-	4	5	3	68	76
+Processing	-	5	5	4	78	78
+Processing	-	1	6	1	37	47
+Processing	-	3	6	2	60	72
+Processing	-	4	6	3	76	86
+Processing	-	5	6	4	88	88
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 105 variables, 212 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 430.4 (before), 430.4 (after)
+ !  . Memory usage      : 705.0 kB (before), 705.0 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        105                 -
+ + New bound is 80
+ *           390      131  0.01s        1      (gap is 79.49%)
+ *           376      237  0.01s        1      (gap is 78.72%)
+ *           362      343  0.01s        1      (gap is 77.90%)
+ *           348      449  0.01s        1      (gap is 77.01%)
+ *           256      555  0.01s        1      (gap is 68.75%)
+ *           255      661  0.01s        1      (gap is 68.63%)
+ *           231      767  0.01s        1      (gap is 65.37%)
+ *           228      943  0.01s        1      (gap is 64.91%)
+ *           220    4,902  0.05s        3      (gap is 63.64%)
+             220   14,370         81    1   F        -
+ + New bound is 117 (gap is 46.82%)
+ *           212   14,506  0.17s        1      (gap is 44.81%)
+ *           211   14,596  0.17s        1      (gap is 44.55%)
+ *           196   14,954  0.17s        2      (gap is 40.31%)
+ *           194   15,112  0.17s        2      (gap is 39.69%)
+ *           193   15,218  0.17s        2      (gap is 39.38%)
+ *           189   14,492  0.18s        3      (gap is 38.10%)
+ *           186   14,634  0.18s        3      (gap is 37.10%)
+ *           178   14,968  0.18s        3      (gap is 34.27%)
+ *           176   15,109  0.18s        3      (gap is 33.52%)
+ ! Time = 0.18s, Average fail depth = 19, Memory usage = 3.6 MB
+ ! Current bound is 117 (gap is 33.52%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           168   15,298  0.18s        3      (gap is 30.36%)
+ ! Using failure-directed search.
+ *           166   16,533  0.20s        3      (gap is 29.52%)
+ *           165   22,631  0.28s        1      (gap is 29.09%)
+ *           159   56,855  0.63s        2      (gap is 26.42%)
+ *           158   87,740  0.98s        2      (gap is 25.95%)
+ *           157     175k  2.15s        2      (gap is 25.48%)
+ *           156     175k  2.17s        2      (gap is 25.00%)
+ *           153     572k  6.60s        3      (gap is 23.53%)
+ *           152   1,951k  22.71s       2      (gap is 23.03%)
+ *           151   2,810k  31.63s       3      (gap is 22.52%)
+             151   2,385k         71    1   F   on Drop({3,4,5,0,1,4,0})
+ + New bound is 123 (gap is 18.54%)
+             151   2,385k         71    1       on Move4Drop({6,4,5,0,1,4,0})(2)
+ + New bound is 125 (gap is 17.22%)
+             151   2,385k         71    1   F   on Move4Drop({6,4,5,0,1,4,0})(1)
+ + New bound is 151 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 28 solutions found.
+ ! Best objective         : 151 (optimal - effective tol. is 0)
+ ! Best bound             : 151
+ ! Number of branches     : 12,401,996
+ ! Number of fails        : 5,469,070
+ ! Total memory usage     : 6.8 MB (5.1 MB CP Optimizer + 1.7 MB Concert)
+ ! Time spent in solve    : 54.22s (54.21s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 228,747.4
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E64	43200	54.22	151
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	48	48
+Move2Drop	1	2	1	2	72	72
+Move2Drop	2	4	1	3	98	98
+Move2Drop	1	5	1	4	123	123
+Move2Drop	2	1	2	1	26	26
+Move2Drop	2	2	2	2	52	52
+Move2Drop	1	4	2	3	78	78
+Move2Drop	2	5	2	4	112	112
+Move2Drop	1	2	3	1	36	36
+Move2Drop	2	3	3	2	60	60
+Move2Drop	1	4	3	3	109	109
+Move2Drop	2	5	3	4	142	142
+Move2Drop	1	2	4	1	8	8
+Move2Drop	1	3	4	2	44	44
+Move2Drop	2	4	4	3	70	70
+Move2Drop	1	5	4	4	93	93
+Move2Drop	1	1	5	1	68	68
+Move2Drop	1	3	5	2	103	103
+Move2Drop	2	4	5	3	128	128
+Move2Drop	1	5	5	4	151	151
+Move2Drop	2	1	6	1	4	4
+Move2Drop	2	3	6	2	32	32
+Move2Drop	1	4	6	3	50	50
+Move2Drop	2	5	6	4	84	84
+Processing	-	1	1	1	48	57
+Processing	-	2	1	2	72	83
+Processing	-	4	1	3	98	105
+Processing	-	5	1	4	123	123
+Processing	-	1	2	1	26	45
+Processing	-	2	2	2	52	72
+Processing	-	4	2	3	79	92
+Processing	-	5	2	4	112	112
+Processing	-	2	3	1	36	50
+Processing	-	3	3	2	64	84
+Processing	-	4	3	3	109	118
+Processing	-	5	3	4	142	142
+Processing	-	2	4	1	8	22
+Processing	-	3	4	2	44	64
+Processing	-	4	4	3	70	79
+Processing	-	5	4	4	93	93
+Processing	-	1	5	1	68	79
+Processing	-	3	5	2	103	119
+Processing	-	4	5	3	128	136
+Processing	-	5	5	4	151	151
+Processing	-	1	6	1	4	14
+Processing	-	3	6	2	32	44
+Processing	-	4	6	3	50	60
+Processing	-	5	6	4	84	84
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 117 variables, 233 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 497.4 (before), 497.4 (after)
+ !  . Memory usage      : 705.7 kB (before), 705.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        117                 -
+ + New bound is 64
+ *           315      148  0.01s        1      (gap is 79.68%)
+ *           304      369  0.01s        1      (gap is 78.95%)
+ *           246      592  0.01s        1      (gap is 73.98%)
+ *           230      712  0.01s        1      (gap is 72.17%)
+ *           225    1,563  0.02s        1      (gap is 71.56%)
+ *           221    1,522  0.02s        2      (gap is 71.04%)
+ *           206    1,945  0.02s        2      (gap is 68.93%)
+ *           201    2,507  0.02s        1      (gap is 68.16%)
+ *           199    2,368  0.02s        2      (gap is 67.84%)
+ *           195    3,367  0.03s        1      (gap is 67.18%)
+ *           189    3,815  0.03s        1      (gap is 66.14%)
+ *           180    4,284  0.03s        1      (gap is 64.44%)
+ *           176    4,594  0.04s        2      (gap is 63.64%)
+             176    5,356         89    3   F        -
+ + New bound is 85 (gap is 51.70%)
+ *           172    5,023  0.05s        2      (gap is 50.58%)
+ *           168    5,497  0.06s        3      (gap is 49.40%)
+ *           166    5,991  0.06s        3      (gap is 48.80%)
+ *           163    6,337  0.06s        3      (gap is 47.85%)
+ *           158    6,494  0.06s        3      (gap is 46.20%)
+ ! Time = 0.06s, Average fail depth = 37, Memory usage = 3.7 MB
+ ! Current bound is 85 (gap is 46.20%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           157    6,674  0.08s        3      (gap is 45.86%)
+ *           154    7,668  0.08s        3      (gap is 44.81%)
+ *           152    7,435  0.08s        1      (gap is 44.08%)
+ ! Using failure-directed search.
+ *           150    8,050  0.09s        2      (gap is 43.33%)
+ *           148   10,454  0.11s        3      (gap is 42.57%)
+ *           145   11,177  0.12s        2      (gap is 41.38%)
+ *           144   31,662  0.38s        3      (gap is 40.97%)
+ *           143   57,375  0.71s        2      (gap is 40.56%)
+ *           142   69,547  1.02s        1      (gap is 40.14%)
+ *           138     104k  1.63s        1      (gap is 38.41%)
+ *           136     106k  1.63s        1      (gap is 37.50%)
+ *           135     106k  1.65s        1      (gap is 37.04%)
+ *           134   2,958k  32.97s       3      (gap is 36.57%)
+ *           133   8,185k  94.63s       3      (gap is 36.09%)
+             133   2,250M         80    1       on Move4Drop({8,4,5,0,1,4,0})(2)
+ + New bound is 97 (gap is 27.07%)
+             133   2,250M         76    1   F   on Drop({3,1,2,9,0,5,32})
+ + New bound is 98 (gap is 26.32%)
+             133   2,250M         55    1   F   on Drop({3,1,2,9,0,5,32})
+ + New bound is 99 (gap is 25.56%)
+             133   2,250M         81    1   F   on Drop({3,1,2,9,0,5,32})
+ + New bound is 100 (gap is 24.81%)
+             133   2,250M         94    1       on Move4Drop({1,3,5,0,1,4,0})(2)
+ + New bound is 114 (gap is 14.29%)
+             133   2,250M         72    1   F   on Move4Drop({1,2,4,6,0,1,22})(1)
+ + New bound is 133 (gap is 0%)
+ ! Time = 41806.15s, Average fail depth = 18, Memory usage = 1.2 GB
+ ! Current bound is 133 (gap is 0%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 32 solutions found.
+ ! Best objective         : 133 (optimal - effective tol. is 0)
+ ! Best bound             : 133
+ ! Number of branches     : 8,451,092,480
+ ! Number of fails        : 3,729,854,281
+ ! Total memory usage     : 1.2 GB (1.2 GB CP Optimizer + 0.0 GB Concert)
+ ! Time spent in solve    : 41806.15s (41806.15s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 202,149.5
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E71	43200	41806.158	133
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	6	6
+Move2Drop	1	4	1	2	22	22
+Move2Drop	1	5	1	3	51	51
+Move2Drop	2	2	2	1	26	26
+Move2Drop	1	4	2	2	45	45
+Move2Drop	2	5	2	3	63	63
+Move2Drop	1	2	3	1	36	36
+Move2Drop	1	4	3	2	71	71
+Move2Drop	2	5	3	3	89	89
+Move2Drop	2	3	4	1	50	50
+Move2Drop	2	4	4	2	83	83
+Move2Drop	1	5	4	3	103	103
+Move2Drop	1	1	5	1	57	57
+Move2Drop	2	3	5	2	77	77
+Move2Drop	2	5	5	3	115	115
+Move2Drop	2	2	6	1	8	8
+Move2Drop	2	3	6	2	32	32
+Move2Drop	2	4	6	3	57	57
+Move2Drop	1	5	6	4	77	77
+Move2Drop	2	1	7	1	69	69
+Move2Drop	1	2	7	2	89	89
+Move2Drop	2	3	7	3	107	107
+Move2Drop	2	5	7	4	133	133
+Move2Drop	1	1	8	1	83	83
+Move2Drop	2	2	8	2	101	101
+Move2Drop	1	4	8	3	119	119
+Move2Drop	1	5	8	4	133	133
+Processing	-	1	1	1	6	12
+Processing	-	4	1	2	22	28
+Processing	-	5	1	3	51	51
+Processing	-	2	2	1	26	37
+Processing	-	4	2	2	45	54
+Processing	-	5	2	3	63	63
+Processing	-	2	3	1	37	46
+Processing	-	4	3	2	71	78
+Processing	-	5	3	3	89	89
+Processing	-	3	4	1	51	67
+Processing	-	4	4	2	83	90
+Processing	-	5	4	3	103	103
+Processing	-	1	5	1	57	66
+Processing	-	3	5	2	77	95
+Processing	-	5	5	3	115	115
+Processing	-	2	6	1	8	21
+Processing	-	3	6	2	32	51
+Processing	-	4	6	3	57	63
+Processing	-	5	6	4	77	77
+Processing	-	1	7	1	69	79
+Processing	-	2	7	2	89	98
+Processing	-	3	7	3	107	120
+Processing	-	5	7	4	133	133
+Processing	-	1	8	1	83	94
+Processing	-	2	8	2	101	110
+Processing	-	4	8	3	119	127
+Processing	-	5	8	4	133	133
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 117 variables, 233 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 497.4 (before), 497.4 (after)
+ !  . Memory usage      : 737.7 kB (before), 737.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        117                 -
+ + New bound is 52
+ *           185      148  0.01s        1      (gap is 71.89%)
+ *           174      268  0.01s        1      (gap is 70.11%)
+ *           166      388  0.01s        1      (gap is 68.67%)
+ *           163      508  0.01s        1      (gap is 68.10%)
+ *           153      628  0.01s        1      (gap is 66.01%)
+ *           149      748  0.01s        1      (gap is 65.10%)
+ *           148      868  0.01s        1      (gap is 64.86%)
+ *           147      988  0.01s        1      (gap is 64.63%)
+ *           144    1,108  0.02s        1      (gap is 63.89%)
+ *           143    1,228  0.02s        1      (gap is 63.64%)
+             143    1,335        102    1   F        -
+ + New bound is 80 (gap is 44.06%)
+ *           140    1,894  0.02s        1      (gap is 42.86%)
+ *           137    2,123  0.04s        1      (gap is 41.61%)
+ *           134    2,242  0.04s        1      (gap is 40.30%)
+ *           132    2,414  0.04s        1      (gap is 39.39%)
+ *           128    2,579  0.04s        1      (gap is 37.50%)
+ *           124    3,003  0.04s        1      (gap is 35.48%)
+ *           116    3,710  0.04s        1      (gap is 31.03%)
+ *           108    4,017  0.05s        1      (gap is 25.93%)
+ ! Time = 0.05s, Average fail depth = 29, Memory usage = 3.7 MB
+ ! Current bound is 80 (gap is 25.93%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           105    4,675  0.05s        1      (gap is 23.81%)
+ ! Using failure-directed search.
+ *           103    5,353  0.06s        2      (gap is 22.33%)
+ *           101    5,566  0.06s        2      (gap is 20.79%)
+ *            99    4,502  0.07s        3      (gap is 19.19%)
+ *            96    7,158  0.07s        2      (gap is 16.67%)
+ *            95    4,639  0.09s        3      (gap is 15.79%)
+ *            94    4,709  0.09s        3      (gap is 14.89%)
+ *            93    4,925  0.11s        3      (gap is 13.98%)
+ *            92   12,764  0.32s        3      (gap is 13.04%)
+ *            91   17,843  0.36s        1      (gap is 12.09%)
+ *            90   16,482  0.50s        3      (gap is 11.11%)
+ *            89   28,008  0.52s        1      (gap is 10.11%)
+ *            88   28,063  0.52s        1      (gap is 9.09%)
+ *            87   34,602  0.62s        1      (gap is 8.05%)
+ *            86   56,756  0.66s        2      (gap is 6.98%)
+              86   82,261          1    1       on Move4Drop({7,4,5,0,1,3,0})(2)
+ + New bound is 81 (gap is 5.81%)
+              86   82,262          1    1       on Move4Drop({5,3,5,0,1,3,0})(2)
+ + New bound is 84 (gap is 2.33%)
+              86   83,107         65    1   F   on Move4Drop({3,2,4,7,0,2,41})(1)
+ + New bound is 86 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 33 solutions found.
+ ! Best objective         : 86 (optimal - effective tol. is 0)
+ ! Best bound             : 86
+ ! Number of branches     : 334,108
+ ! Number of fails        : 160,167
+ ! Total memory usage     : 5.5 MB (3.7 MB CP Optimizer + 1.8 MB Concert)
+ ! Time spent in solve    : 1.62s (1.62s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 205,731.5
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E72	43200	1.626	86
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	52	52
+Move2Drop	1	4	1	2	69	69
+Move2Drop	1	5	1	3	83	83
+Move2Drop	1	2	2	1	20	20
+Move2Drop	2	4	2	2	35	35
+Move2Drop	1	5	2	3	48	48
+Move2Drop	1	2	3	1	36	36
+Move2Drop	1	4	3	2	59	59
+Move2Drop	1	5	3	3	73	73
+Move2Drop	2	3	4	1	8	8
+Move2Drop	1	4	4	2	26	26
+Move2Drop	2	5	4	3	39	39
+Move2Drop	2	1	5	1	28	28
+Move2Drop	2	3	5	2	47	47
+Move2Drop	2	5	5	3	72	72
+Move2Drop	1	2	6	1	6	6
+Move2Drop	1	3	6	2	22	22
+Move2Drop	2	4	6	3	49	49
+Move2Drop	1	5	6	4	63	63
+Move2Drop	2	1	7	1	43	43
+Move2Drop	1	2	7	2	55	55
+Move2Drop	2	3	7	3	66	66
+Move2Drop	2	5	7	4	86	86
+Move2Drop	2	1	8	1	18	18
+Move2Drop	2	2	8	2	31	31
+Move2Drop	1	4	8	3	44	44
+Move2Drop	2	5	8	4	56	56
+Processing	-	1	1	1	53	59
+Processing	-	4	1	2	69	75
+Processing	-	5	1	3	86	86
+Processing	-	2	2	1	20	31
+Processing	-	4	2	2	35	44
+Processing	-	5	2	3	48	48
+Processing	-	2	3	1	40	49
+Processing	-	4	3	2	59	66
+Processing	-	5	3	3	73	73
+Processing	-	3	4	1	8	24
+Processing	-	4	4	2	26	33
+Processing	-	5	4	3	39	39
+Processing	-	1	5	1	29	38
+Processing	-	3	5	2	47	65
+Processing	-	5	5	3	72	72
+Processing	-	2	6	1	6	19
+Processing	-	3	6	2	24	43
+Processing	-	4	6	3	52	58
+Processing	-	5	6	4	63	63
+Processing	-	1	7	1	43	53
+Processing	-	2	7	2	55	64
+Processing	-	3	7	3	66	79
+Processing	-	5	7	4	86	86
+Processing	-	1	8	1	18	29
+Processing	-	2	8	2	31	40
+Processing	-	4	8	3	44	52
+Processing	-	5	8	4	56	56
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 117 variables, 233 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 497.4 (before), 497.4 (after)
+ !  . Memory usage      : 737.7 kB (before), 737.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        117                 -
+ + New bound is 52
+ *           175      148  0.01s        1      (gap is 70.29%)
+ *           171      268  0.01s        1      (gap is 69.59%)
+ *           160      388  0.01s        1      (gap is 67.50%)
+ *           154      508  0.01s        1      (gap is 66.23%)
+ *           153      628  0.01s        1      (gap is 66.01%)
+ *           152      748  0.01s        1      (gap is 65.79%)
+ *           146      868  0.01s        1      (gap is 64.38%)
+ *           145      988  0.01s        1      (gap is 64.14%)
+ *           140    1,108  0.02s        1      (gap is 62.86%)
+ *           137    1,228  0.02s        1      (gap is 62.04%)
+             137    1,309        105    1            -
+ + New bound is 80 (gap is 41.61%)
+ *           136    1,427  0.02s        1      (gap is 41.18%)
+ *           133    1,592  0.02s        1      (gap is 39.85%)
+ *           124    1,810  0.02s        2      (gap is 35.48%)
+ *           122    1,963  0.02s        2      (gap is 34.43%)
+ *           119    2,303  0.03s        2      (gap is 32.77%)
+ *           118    2,351  0.03s        2      (gap is 32.20%)
+ *           116    2,699  0.03s        2      (gap is 31.03%)
+ *           112    2,898  0.03s        2      (gap is 28.57%)
+ ! Time = 0.03s, Average fail depth = 24, Memory usage = 3.8 MB
+ ! Current bound is 80 (gap is 28.57%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           111    3,364  0.04s        2      (gap is 27.93%)
+ *           110    4,231  0.06s        3      (gap is 27.27%)
+ *           109    4,666  0.06s        3      (gap is 26.61%)
+ ! Using failure-directed search.
+ *           108    5,793  0.07s        3      (gap is 25.93%)
+ *           104    6,878  0.08s        2      (gap is 23.08%)
+ *           102   18,387  0.21s        2      (gap is 21.57%)
+ *            99   21,597  0.24s        3      (gap is 19.19%)
+ *            98   25,826  0.33s        2      (gap is 18.37%)
+ *            94   29,884  0.39s        2      (gap is 14.89%)
+ *            93   1,035k  11.68s       1      (gap is 13.98%)
+              93   1,404k         67    1   F   on Move4Drop({1,3,5,0,1,4,0})(1)
+ + New bound is 91 (gap is 2.15%)
+              93   1,406k         53    1   F   on Move4Drop({8,3,4,8,0,2,60})(1)
+ + New bound is 93 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 28 solutions found.
+ ! Best objective         : 93 (optimal - effective tol. is 0)
+ ! Best bound             : 93
+ ! Number of branches     : 5,409,612
+ ! Number of fails        : 2,279,745
+ ! Total memory usage     : 6.3 MB (4.4 MB CP Optimizer + 1.9 MB Concert)
+ ! Time spent in solve    : 20.90s (20.90s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 258,783.6
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E73	43200	20.907	93
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	58	58
+Move2Drop	2	4	1	2	77	77
+Move2Drop	2	5	1	3	93	93
+Move2Drop	1	2	2	1	32	32
+Move2Drop	1	4	2	2	54	54
+Move2Drop	2	5	2	3	65	65
+Move2Drop	2	2	3	1	20	21
+Move2Drop	1	4	3	2	40	40
+Move2Drop	2	5	3	3	51	51
+Move2Drop	2	3	4	1	11	11
+Move2Drop	2	4	4	2	29	29
+Move2Drop	1	5	4	3	42	42
+Move2Drop	1	1	5	1	16	16
+Move2Drop	2	3	5	2	41	41
+Move2Drop	1	5	5	3	79	79
+Move2Drop	1	2	6	1	4	4
+Move2Drop	1	3	6	2	24	24
+Move2Drop	2	4	6	3	48	48
+Move2Drop	1	5	6	4	56	56
+Move2Drop	1	1	7	1	44	44
+Move2Drop	1	2	7	2	60	60
+Move2Drop	1	3	7	3	75	75
+Move2Drop	1	5	7	4	93	93
+Move2Drop	2	1	8	1	33	33
+Move2Drop	1	2	8	2	46	46
+Move2Drop	2	4	8	3	63	63
+Move2Drop	2	5	8	4	79	79
+Processing	-	1	1	1	59	65
+Processing	-	4	1	2	80	86
+Processing	-	5	1	3	93	93
+Processing	-	2	2	1	32	43
+Processing	-	4	2	2	54	63
+Processing	-	5	2	3	65	65
+Processing	-	2	3	1	21	30
+Processing	-	4	3	2	40	47
+Processing	-	5	3	3	51	51
+Processing	-	3	4	1	11	27
+Processing	-	4	4	2	29	36
+Processing	-	5	4	3	42	42
+Processing	-	1	5	1	22	31
+Processing	-	3	5	2	46	64
+Processing	-	5	5	3	79	79
+Processing	-	2	6	1	4	17
+Processing	-	3	6	2	27	46
+Processing	-	4	6	3	48	54
+Processing	-	5	6	4	56	56
+Processing	-	1	7	1	48	58
+Processing	-	2	7	2	60	69
+Processing	-	3	7	3	75	88
+Processing	-	5	7	4	93	93
+Processing	-	1	8	1	33	44
+Processing	-	2	8	2	46	55
+Processing	-	4	8	3	63	71
+Processing	-	5	8	4	79	79
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 117 variables, 233 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 497.4 (before), 497.4 (after)
+ !  . Memory usage      : 737.7 kB (before), 737.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        117                 -
+ + New bound is 74
+ *           380      148  0.01s        1      (gap is 80.53%)
+ *           377      268  0.01s        1      (gap is 80.37%)
+ *           352      388  0.01s        1      (gap is 78.98%)
+ *           281      578  0.01s        1      (gap is 73.67%)
+ *           267      698  0.01s        1      (gap is 72.28%)
+ *           259      907  0.01s        1      (gap is 71.43%)
+ *           257    2,449  0.03s        1      (gap is 71.21%)
+ *           248    2,920  0.03s        3      (gap is 70.16%)
+ *           240    3,729  0.04s        2      (gap is 69.17%)
+ *           239    4,538  0.05s        1      (gap is 69.04%)
+             239    5,374         89    1   F        -
+ + New bound is 91 (gap is 61.92%)
+ *           217    6,107  0.08s        1      (gap is 58.06%)
+ *           213    6,331  0.08s        1      (gap is 57.28%)
+ *           199    6,423  0.08s        1      (gap is 54.27%)
+ *           189    7,182  0.09s        1      (gap is 51.85%)
+ *           187    7,628  0.09s        1      (gap is 51.34%)
+ *           185    8,012  0.09s        1      (gap is 50.81%)
+ *           181    8,930  0.11s        1      (gap is 49.72%)
+ ! Using failure-directed search.
+ *           180   13,647  0.16s        1      (gap is 49.44%)
+ ! Time = 0.16s, Average fail depth = 22, Memory usage = 3.7 MB
+ ! Current bound is 91 (gap is 49.44%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           177   17,813  0.20s        1      (gap is 48.59%)
+ *           171   19,264  0.23s        1      (gap is 46.78%)
+ *           165   31,675  0.51s        2      (gap is 44.85%)
+ *           164     181M  2223.19s     1      (gap is 44.51%)
+ *           162   2,879M  38675.60s    3      (gap is 43.83%)
+ ! ----------------------------------------------------------------------------
+ ! Search terminated by limit, 23 solutions found.
+ ! Best objective         : 162 (gap is 43.83%)
+ ! Best bound             : 91
+ ! Number of branches     : 10,396,880,000
+ ! Number of fails        : 4,438,869,347
+ ! Total memory usage     : 1.2 GB (1.2 GB CP Optimizer + 0.0 GB Concert)
+ ! Time spent in solve    : 43200.00s (43200.00s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 240,668.5
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E74	43200	43200.005	162
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	54	54
+Move2Drop	1	4	1	2	72	72
+Move2Drop	2	5	1	3	106	106
+Move2Drop	1	2	2	1	94	94
+Move2Drop	2	4	2	2	120	120
+Move2Drop	2	5	2	3	162	162
+Move2Drop	1	2	3	1	8	8
+Move2Drop	2	4	3	2	36	36
+Move2Drop	1	5	3	3	58	58
+Move2Drop	2	3	4	1	10	10
+Move2Drop	1	4	4	2	44	44
+Move2Drop	1	5	4	3	86	86
+Move2Drop	2	1	5	1	110	110
+Move2Drop	1	3	5	2	125	125
+Move2Drop	1	5	5	3	159	159
+Move2Drop	2	2	6	1	30	30
+Move2Drop	2	3	6	2	66	66
+Move2Drop	2	4	6	3	92	92
+Move2Drop	1	5	6	4	114	114
+Move2Drop	1	1	7	1	32	32
+Move2Drop	2	2	7	2	58	58
+Move2Drop	2	3	7	3	86	86
+Move2Drop	1	5	7	4	137	137
+Move2Drop	1	1	8	1	62	62
+Move2Drop	2	2	8	2	78	78
+Move2Drop	1	4	8	3	100	100
+Move2Drop	2	5	8	4	134	134
+Processing	-	1	1	1	54	60
+Processing	-	4	1	2	72	78
+Processing	-	5	1	3	106	106
+Processing	-	2	2	1	94	105
+Processing	-	4	2	2	120	129
+Processing	-	5	2	3	162	162
+Processing	-	2	3	1	8	17
+Processing	-	4	3	2	36	43
+Processing	-	5	3	3	58	58
+Processing	-	3	4	1	10	26
+Processing	-	4	4	2	44	51
+Processing	-	5	4	3	86	86
+Processing	-	1	5	1	110	119
+Processing	-	3	5	2	125	143
+Processing	-	5	5	3	159	159
+Processing	-	2	6	1	30	43
+Processing	-	3	6	2	66	85
+Processing	-	4	6	3	92	98
+Processing	-	5	6	4	114	114
+Processing	-	1	7	1	32	42
+Processing	-	2	7	2	58	67
+Processing	-	3	7	3	86	99
+Processing	-	5	7	4	137	137
+Processing	-	1	8	1	62	73
+Processing	-	2	8	2	78	87
+Processing	-	4	8	3	100	108
+Processing	-	5	8	4	137	137
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 113 variables, 230 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 474.9 (before), 474.9 (after)
+ !  . Memory usage      : 737.4 kB (before), 737.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        113                 -
+ + New bound is 81
+ *           335      141  0.01s        1      (gap is 75.82%)
+ *           326      255  0.01s        1      (gap is 75.15%)
+ *           308      369  0.01s        1      (gap is 73.70%)
+ *           302      483  0.01s        1      (gap is 73.18%)
+ *           281      597  0.01s        1      (gap is 71.17%)
+ *           280      711  0.01s        1      (gap is 71.07%)
+ *           274      825  0.01s        1      (gap is 70.44%)
+ *           243      939  0.01s        1      (gap is 66.67%)
+ *           233    1,053  0.02s        1      (gap is 65.24%)
+ *           226    1,167  0.02s        1      (gap is 64.16%)
+             226    1,268         99    1            -
+ + New bound is 167 (gap is 26.11%)
+ *           223    1,477  0.02s        1      (gap is 25.11%)
+ *           191    1,362  0.02s        2      (gap is 12.57%)
+ *           190    1,815  0.02s        2      (gap is 12.11%)
+ *           187    2,430  0.04s        2      (gap is 10.70%)
+ *           186    2,555  0.04s        2      (gap is 10.22%)
+ *           184    2,650  0.04s        2      (gap is 9.24%)
+ *           183    2,967  0.04s        2      (gap is 8.74%)
+ *           179    3,062  0.04s        2      (gap is 6.70%)
+ ! Time = 0.04s, Average fail depth = 25, Memory usage = 3.7 MB
+ ! Current bound is 167 (gap is 6.70%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           177    3,177  0.04s        2      (gap is 5.65%)
+ *           171    3,068  0.04s        3      (gap is 2.34%)
+ *           169    3,314  0.04s        3      (gap is 1.18%)
+ *           168    3,930  0.05s        3      (gap is 0.6%)
+ ! Using failure-directed search.
+ *           167    6,132  0.06s        3      (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 23 solutions found.
+ ! Best objective         : 167 (optimal - effective tol. is 0)
+ ! Best bound             : 167
+ ! Number of branches     : 14,509
+ ! Number of fails        : 4,265
+ ! Total memory usage     : 5.6 MB (3.6 MB CP Optimizer + 2.0 MB Concert)
+ ! Time spent in solve    : 0.06s (0.06s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 219,833.3
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E81	43200	0.069	167
+Type	v	m	j	o	s	e	
+Move2Drop	1	2	1	1	40	40
+Move2Drop	2	3	1	2	58	58
+Move2Drop	2	4	1	3	92	92
+Move2Drop	1	5	1	4	119	119
+Move2Drop	2	2	2	1	78	78
+Move2Drop	1	3	2	2	100	100
+Move2Drop	1	4	2	3	135	135
+Move2Drop	1	5	2	4	158	158
+Move2Drop	1	2	3	1	8	8
+Move2Drop	2	3	3	2	26	26
+Move2Drop	2	4	3	3	64	64
+Move2Drop	2	5	3	4	127	127
+Move2Drop	1	2	4	1	62	62
+Move2Drop	1	3	4	2	80	80
+Move2Drop	1	4	4	3	113	113
+Move2Drop	2	5	4	4	145	145
+Move2Drop	2	1	5	1	40	40
+Move2Drop	1	2	5	2	74	74
+Move2Drop	2	3	5	3	115	115
+Move2Drop	1	4	5	4	152	152
+Move2Drop	2	5	5	5	167	167
+Move2Drop	2	1	6	1	6	6
+Move2Drop	1	2	6	2	22	22
+Move2Drop	1	3	6	3	46	46
+Move2Drop	1	4	6	4	86	86
+Move2Drop	2	5	6	5	101	101
+Processing	-	2	1	1	40	52
+Processing	-	3	1	2	65	86
+Processing	-	4	1	3	95	106
+Processing	-	5	1	4	119	119
+Processing	-	2	2	1	78	90
+Processing	-	3	2	2	107	128
+Processing	-	4	2	3	135	146
+Processing	-	5	2	4	158	158
+Processing	-	2	3	1	8	20
+Processing	-	3	3	2	26	47
+Processing	-	4	3	3	64	75
+Processing	-	5	3	4	127	127
+Processing	-	2	4	1	62	74
+Processing	-	3	4	2	86	107
+Processing	-	4	4	3	113	124
+Processing	-	5	4	4	145	145
+Processing	-	1	5	1	40	50
+Processing	-	2	5	2	90	104
+Processing	-	3	5	3	128	146
+Processing	-	4	5	4	152	161
+Processing	-	5	5	5	167	167
+Processing	-	1	6	1	6	16
+Processing	-	2	6	2	22	36
+Processing	-	3	6	3	47	65
+Processing	-	4	6	4	86	95
+Processing	-	5	6	5	101	101
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 113 variables, 230 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 474.9 (before), 474.9 (after)
+ !  . Memory usage      : 737.4 kB (before), 737.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        113                 -
+ + New bound is 65
+ *           187      141  0.01s        1      (gap is 65.24%)
+ *           184      255  0.01s        1      (gap is 64.67%)
+ *           177      369  0.01s        1      (gap is 63.28%)
+ *           176      483  0.01s        1      (gap is 63.07%)
+ *           175      597  0.01s        1      (gap is 62.86%)
+ *           174      711  0.01s        1      (gap is 62.64%)
+ *           173      825  0.01s        1      (gap is 62.43%)
+ *           171      939  0.01s        1      (gap is 61.99%)
+ *           169    1,053  0.02s        1      (gap is 61.54%)
+ *           167    1,167  0.02s        1      (gap is 61.08%)
+             167    1,280         97    1   F        -
+ + New bound is 155 (gap is 7.19%)
+ *           163    1,463  0.02s        1      (gap is 4.91%)
+ *           155    1,816  0.02s        1      (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 12 solutions found.
+ ! Best objective         : 155 (optimal - effective tol. is 0)
+ ! Best bound             : 155
+ ! Number of branches     : 3,924
+ ! Number of fails        : 245
+ ! Total memory usage     : 5.5 MB (3.4 MB CP Optimizer + 2.1 MB Concert)
+ ! Time spent in solve    : 0.02s (0.02s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 163,500.0
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E82	43200	0.027	155
+Type	v	m	j	o	s	e	
+Move2Drop	1	2	1	1	16	16
+Move2Drop	2	3	1	2	69	69
+Move2Drop	2	4	1	3	103	103
+Move2Drop	1	5	1	4	118	118
+Move2Drop	2	2	2	1	6	6
+Move2Drop	1	3	2	2	20	20
+Move2Drop	2	4	2	3	43	43
+Move2Drop	2	5	2	4	61	61
+Move2Drop	2	2	3	1	34	34
+Move2Drop	2	3	3	2	55	55
+Move2Drop	2	4	3	3	85	85
+Move2Drop	2	5	3	4	107	107
+Move2Drop	1	2	4	1	32	32
+Move2Drop	2	3	4	2	97	97
+Move2Drop	1	4	4	3	128	128
+Move2Drop	1	5	4	4	146	146
+Move2Drop	2	1	5	1	18	18
+Move2Drop	2	2	5	2	53	53
+Move2Drop	2	3	5	3	83	83
+Move2Drop	1	4	5	4	142	142
+Move2Drop	2	5	5	5	155	155
+Move2Drop	1	1	6	1	4	4
+Move2Drop	2	2	6	2	20	20
+Move2Drop	2	3	6	3	36	36
+Move2Drop	2	4	6	4	71	71
+Move2Drop	2	5	6	5	89	89
+Processing	-	2	1	1	46	58
+Processing	-	3	1	2	80	101
+Processing	-	4	1	3	103	114
+Processing	-	5	1	4	118	118
+Processing	-	2	2	1	6	18
+Processing	-	3	2	2	20	41
+Processing	-	4	2	3	43	54
+Processing	-	5	2	4	61	61
+Processing	-	2	3	1	34	46
+Processing	-	3	3	2	59	80
+Processing	-	4	3	3	85	96
+Processing	-	5	3	4	107	107
+Processing	-	2	4	1	72	84
+Processing	-	3	4	2	101	122
+Processing	-	4	4	3	128	139
+Processing	-	5	4	4	146	146
+Processing	-	1	5	1	18	28
+Processing	-	2	5	2	58	72
+Processing	-	3	5	3	122	140
+Processing	-	4	5	4	142	151
+Processing	-	5	5	5	155	155
+Processing	-	1	6	1	4	14
+Processing	-	2	6	2	20	34
+Processing	-	3	6	3	41	59
+Processing	-	4	6	4	71	80
+Processing	-	5	6	5	89	89
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 113 variables, 230 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 474.9 (before), 474.9 (after)
+ !  . Memory usage      : 737.4 kB (before), 737.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        113                 -
+ + New bound is 65
+ *           199      141  0.01s        1      (gap is 67.34%)
+ *           192      255  0.01s        1      (gap is 66.15%)
+ *           188      369  0.01s        1      (gap is 65.43%)
+ *           185      483  0.01s        1      (gap is 64.86%)
+ *           181      597  0.01s        1      (gap is 64.09%)
+ *           178      711  0.01s        1      (gap is 63.48%)
+ *           172      825  0.01s        1      (gap is 62.21%)
+ *           169      939  0.01s        1      (gap is 61.54%)
+ *           167    1,053  0.02s        1      (gap is 61.08%)
+ *           164    1,167  0.02s        1      (gap is 60.37%)
+             164    1,228        102    1   F        -
+ + New bound is 155 (gap is 5.49%)
+ *           157    1,805  0.02s        1      (gap is 1.27%)
+ *           156    3,086  0.03s        3      (gap is 0.64%)
+ *           155    3,657  0.03s        3      (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 13 solutions found.
+ ! Best objective         : 155 (optimal - effective tol. is 0)
+ ! Best bound             : 155
+ ! Number of branches     : 8,659
+ ! Number of fails        : 1,970
+ ! Total memory usage     : 5.7 MB (3.5 MB CP Optimizer + 2.2 MB Concert)
+ ! Time spent in solve    : 0.03s (0.03s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 240,527.8
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E83	43200	0.039	155
+Type	v	m	j	o	s	e	
+Move2Drop	1	2	1	1	32	32
+Move2Drop	2	3	1	2	84	84
+Move2Drop	1	4	1	3	126	126
+Move2Drop	1	5	1	4	139	139
+Move2Drop	1	2	2	1	18	18
+Move2Drop	2	3	2	2	64	64
+Move2Drop	1	4	2	3	105	105
+Move2Drop	2	5	2	4	118	118
+Move2Drop	2	2	3	1	30	30
+Move2Drop	1	3	3	2	48	48
+Move2Drop	1	4	3	3	84	84
+Move2Drop	2	5	3	4	97	97
+Move2Drop	1	2	4	1	4	4
+Move2Drop	2	3	4	2	22	22
+Move2Drop	2	4	4	3	52	52
+Move2Drop	1	5	4	4	65	65
+Move2Drop	2	1	5	1	2	2
+Move2Drop	2	2	5	2	14	14
+Move2Drop	2	3	5	3	36	36
+Move2Drop	1	4	5	4	63	63
+Move2Drop	2	5	5	5	74	74
+Move2Drop	2	1	6	1	42	42
+Move2Drop	2	2	6	2	58	58
+Move2Drop	1	3	6	3	96	96
+Move2Drop	2	4	6	4	144	144
+Move2Drop	1	5	6	5	155	155
+Processing	-	2	1	1	54	66
+Processing	-	3	1	2	103	124
+Processing	-	4	1	3	126	137
+Processing	-	5	1	4	139	139
+Processing	-	2	2	1	42	54
+Processing	-	3	2	2	82	103
+Processing	-	4	2	3	105	116
+Processing	-	5	2	4	118	118
+Processing	-	2	3	1	30	42
+Processing	-	3	3	2	61	82
+Processing	-	4	3	3	84	95
+Processing	-	5	3	4	97	97
+Processing	-	2	4	1	4	16
+Processing	-	3	4	2	22	43
+Processing	-	4	4	3	52	63
+Processing	-	5	4	4	65	65
+Processing	-	1	5	1	2	12
+Processing	-	2	5	2	16	30
+Processing	-	3	5	3	43	61
+Processing	-	4	5	4	63	72
+Processing	-	5	5	5	74	74
+Processing	-	1	6	1	42	52
+Processing	-	2	6	2	66	80
+Processing	-	3	6	3	124	142
+Processing	-	4	6	4	144	153
+Processing	-	5	6	5	155	155
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 113 variables, 230 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 474.9 (before), 474.9 (after)
+ !  . Memory usage      : 737.4 kB (before), 737.4 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        113                 -
+ + New bound is 87
+ *           414      141  0.01s        1      (gap is 78.99%)
+ *           386      255  0.01s        1      (gap is 77.46%)
+ *           358      369  0.01s        1      (gap is 75.70%)
+ *           347      483  0.01s        1      (gap is 74.93%)
+ *           314      597  0.01s        1      (gap is 72.29%)
+ *           311      711  0.01s        1      (gap is 72.03%)
+ *           302      903  0.01s        1      (gap is 71.19%)
+ *           301    1,017  0.02s        1      (gap is 71.10%)
+ *           273    1,131  0.02s        1      (gap is 68.13%)
+ *           257    1,741  0.02s        1      (gap is 66.15%)
+ *           245    2,574  0.03s        1      (gap is 64.49%)
+ *           242    3,482  0.04s        2      (gap is 64.05%)
+ *           237    3,959  0.04s        2      (gap is 63.29%)
+             237    5,620         88    2   F        -
+ + New bound is 177 (gap is 25.32%)
+ *           232    5,866  0.07s        2      (gap is 23.71%)
+ *           228    6,027  0.07s        2      (gap is 22.37%)
+ *           224    6,464  0.09s        2      (gap is 20.98%)
+ *           210    6,788  0.09s        2      (gap is 15.71%)
+ *           197    6,492  0.10s        3      (gap is 10.15%)
+ ! Time = 0.10s, Average fail depth = 29, Memory usage = 3.7 MB
+ ! Current bound is 177 (gap is 10.15%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           196    6,735  0.10s        3      (gap is 9.69%)
+ *           195    6,892  0.12s        3      (gap is 9.23%)
+ *           193    7,371  0.12s        3      (gap is 8.29%)
+ ! Using failure-directed search.
+ *           191    7,552  0.13s        3      (gap is 7.33%)
+ *           190   12,863  0.15s        2      (gap is 6.84%)
+ *           188    9,036  0.18s        3      (gap is 5.85%)
+ *           187   16,386  0.18s        2      (gap is 5.35%)
+ *           185   10,852  0.21s        3      (gap is 4.32%)
+ *           183   23,094  0.27s        2      (gap is 3.28%)
+ *           179   13,026  0.29s        3      (gap is 1.12%)
+ *           178   13,878  0.30s        3      (gap is 0.56%)
+             178     300k          1    1   F   on Move4Drop({3,1,2,12,0,5,20})(1)
+ + New bound is 178 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 29 solutions found.
+ ! Best objective         : 178 (optimal - effective tol. is 0)
+ ! Best bound             : 178
+ ! Number of branches     : 1,340,847
+ ! Number of fails        : 596,319
+ ! Total memory usage     : 6.0 MB (3.8 MB CP Optimizer + 2.2 MB Concert)
+ ! Time spent in solve    : 5.83s (5.83s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 229,872.6
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E84	43200	5.835	178
+Type	v	m	j	o	s	e	
+Move2Drop	2	2	1	1	48	48
+Move2Drop	1	3	1	2	72	72
+Move2Drop	1	4	1	3	136	136
+Move2Drop	2	5	1	4	168	168
+Move2Drop	1	2	2	1	8	8
+Move2Drop	2	3	2	2	28	28
+Move2Drop	2	4	2	3	62	62
+Move2Drop	2	5	2	4	88	88
+Move2Drop	1	2	3	1	36	36
+Move2Drop	2	3	3	2	56	56
+Move2Drop	1	4	3	3	94	94
+Move2Drop	2	5	3	4	134	134
+Move2Drop	1	2	4	1	64	64
+Move2Drop	1	3	4	2	86	86
+Move2Drop	2	4	4	3	120	120
+Move2Drop	1	5	4	4	150	150
+Move2Drop	2	1	5	1	92	92
+Move2Drop	2	2	5	2	106	106
+Move2Drop	1	3	5	3	128	128
+Move2Drop	2	4	5	4	154	154
+Move2Drop	1	5	5	5	178	178
+Move2Drop	2	1	6	1	4	4
+Move2Drop	2	2	6	2	18	18
+Move2Drop	1	3	6	3	44	44
+Move2Drop	2	4	6	4	74	74
+Move2Drop	1	5	6	5	108	108
+Processing	-	2	1	1	48	60
+Processing	-	3	1	2	109	130
+Processing	-	4	1	3	136	147
+Processing	-	5	1	4	168	168
+Processing	-	2	2	1	8	20
+Processing	-	3	2	2	28	49
+Processing	-	4	2	3	62	73
+Processing	-	5	2	4	88	88
+Processing	-	2	3	1	36	48
+Processing	-	3	3	2	67	88
+Processing	-	4	3	3	94	105
+Processing	-	5	3	4	134	134
+Processing	-	2	4	1	64	76
+Processing	-	3	4	2	88	109
+Processing	-	4	4	3	120	131
+Processing	-	5	4	4	150	150
+Processing	-	1	5	1	92	102
+Processing	-	2	5	2	106	120
+Processing	-	3	5	3	130	148
+Processing	-	4	5	4	154	163
+Processing	-	5	5	5	178	178
+Processing	-	1	6	1	4	14
+Processing	-	2	6	2	20	34
+Processing	-	3	6	3	49	67
+Processing	-	4	6	4	74	83
+Processing	-	5	6	5	108	108
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 97 variables, 197 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 386.6 (before), 386.6 (after)
+ !  . Memory usage      : 736.8 kB (before), 736.8 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         97                 -
+ + New bound is 90
+ *           285      120  0.01s        1      (gap is 68.42%)
+ *           276      217  0.01s        1      (gap is 67.39%)
+ *           270      314  0.01s        1      (gap is 66.67%)
+ *           267      411  0.01s        1      (gap is 66.29%)
+ *           258      508  0.01s        1      (gap is 65.12%)
+ *           256      605  0.01s        1      (gap is 64.84%)
+ *           254      702  0.01s        1      (gap is 64.57%)
+ *           223      799  0.01s        1      (gap is 59.64%)
+ *           217      896  0.01s        1      (gap is 58.53%)
+ *           214      993  0.01s        1      (gap is 57.94%)
+             214    1,094         85    1   F        -
+ + New bound is 109 (gap is 49.07%)
+ *           212    1,231  0.02s        1      (gap is 48.58%)
+ *           194    1,463  0.02s        1      (gap is 43.81%)
+ *           184    1,593  0.02s        1      (gap is 40.76%)
+ *           183    1,709  0.02s        1      (gap is 40.44%)
+ *           182    1,889  0.02s        1      (gap is 40.11%)
+ *           157    1,812  0.02s        2      (gap is 30.57%)
+ *           150    1,972  0.02s        2      (gap is 27.33%)
+ *           147    1,876  0.02s        3      (gap is 25.85%)
+ ! Time = 0.02s, Average fail depth = 27, Memory usage = 3.4 MB
+ ! Current bound is 109 (gap is 25.85%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           140    2,566  0.03s        1      (gap is 22.14%)
+ ! Using failure-directed search.
+ *           137    2,950  0.03s        3      (gap is 20.44%)
+ *           134    3,240  0.03s        3      (gap is 18.66%)
+ *           133    4,173  0.05s        1      (gap is 18.05%)
+ *           130    6,926  0.08s        3      (gap is 16.15%)
+ *           129   49,837  0.67s        2      (gap is 15.50%)
+ *           127   80,372  1.49s        1      (gap is 14.17%)
+             127     119k          1    1   F   on Move4Drop({4,1,2,20,0,5,8})(1)
+ + New bound is 127 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 25 solutions found.
+ ! Best objective         : 127 (optimal - effective tol. is 0)
+ ! Best bound             : 127
+ ! Number of branches     : 570,270
+ ! Number of fails        : 271,286
+ ! Total memory usage     : 5.8 MB (3.5 MB CP Optimizer + 2.3 MB Concert)
+ ! Time spent in solve    : 2.38s (2.38s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 239,207.2
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E91	43200	2.386	127
+Type	v	m	j	o	s	e	
+Move2Drop	1	3	1	1	28	28
+Move2Drop	1	1	1	2	61	61
+Move2Drop	1	2	1	3	95	95
+Move2Drop	2	4	1	4	115	115
+Move2Drop	1	5	1	5	127	127
+Move2Drop	1	3	2	1	53	53
+Move2Drop	2	2	2	2	81	84
+Move2Drop	1	4	2	3	103	103
+Move2Drop	2	5	2	4	121	126
+Move2Drop	2	1	3	1	24	24
+Move2Drop	2	2	3	2	51	51
+Move2Drop	1	4	3	3	77	77
+Move2Drop	2	5	3	4	99	99
+Move2Drop	2	2	4	1	8	8
+Move2Drop	2	3	4	2	36	36
+Move2Drop	2	4	4	3	66	66
+Move2Drop	1	5	4	4	83	83
+Move2Drop	1	3	5	1	10	10
+Move2Drop	2	1	5	2	45	45
+Move2Drop	1	2	5	3	67	69
+Move2Drop	2	4	5	4	92	93
+Move2Drop	1	5	5	5	109	109
+Processing	-	3	1	1	28	37
+Processing	-	1	1	2	61	73
+Processing	-	2	1	3	98	107
+Processing	-	4	1	4	115	121
+Processing	-	5	1	5	127	127
+Processing	-	3	2	1	59	75
+Processing	-	2	2	2	84	95
+Processing	-	4	2	3	106	115
+Processing	-	5	2	4	126	126
+Processing	-	1	3	1	24	45
+Processing	-	2	3	2	51	69
+Processing	-	4	3	3	77	84
+Processing	-	5	3	4	99	99
+Processing	-	2	4	1	8	28
+Processing	-	3	4	2	37	59
+Processing	-	4	4	3	66	77
+Processing	-	5	4	4	83	83
+Processing	-	3	5	1	14	28
+Processing	-	1	5	2	45	61
+Processing	-	2	5	3	69	82
+Processing	-	4	5	4	93	102
+Processing	-	5	5	5	109	109
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 97 variables, 197 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 386.6 (before), 386.6 (after)
+ !  . Memory usage      : 736.7 kB (before), 736.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         97                 -
+ + New bound is 80
+ *           173      120  0.01s        1      (gap is 53.76%)
+ *           167      217  0.01s        1      (gap is 52.10%)
+ *           165      314  0.01s        1      (gap is 51.52%)
+ *           163      411  0.01s        1      (gap is 50.92%)
+ *           162      508  0.01s        1      (gap is 50.62%)
+ *           149      605  0.01s        1      (gap is 46.31%)
+ *           146      702  0.01s        1      (gap is 45.21%)
+ *           143      799  0.01s        1      (gap is 44.06%)
+ *           141      896  0.01s        1      (gap is 43.26%)
+ *           129    1,445  0.02s        1      (gap is 37.98%)
+ *           118    1,894  0.02s        1      (gap is 32.20%)
+ *           110    1,879  0.02s        2      (gap is 27.27%)
+ *           109    2,291  0.03s        2      (gap is 26.61%)
+ *           107    2,703  0.04s        2      (gap is 25.23%)
+             107    5,163         49    2   F        -
+ + New bound is 100 (gap is 6.54%)
+ *           106    5,612  0.11s        2      (gap is 5.66%)
+ ! Using failure-directed search.
+             106   11,055          2    1   F   on Move4Drop({3,1,1,21,0,5,6})(1)
+ + New bound is 106 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 15 solutions found.
+ ! Best objective         : 106 (optimal - effective tol. is 0)
+ ! Best bound             : 106
+ ! Number of branches     : 41,056
+ ! Number of fails        : 20,377
+ ! Total memory usage     : 5.7 MB (3.4 MB CP Optimizer + 2.4 MB Concert)
+ ! Time spent in solve    : 0.27s (0.27s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 148,753.6
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E92	43200	0.279	106
+Type	v	m	j	o	s	e	
+Move2Drop	2	3	1	1	32	32
+Move2Drop	2	1	1	2	57	57
+Move2Drop	2	2	1	3	79	79
+Move2Drop	1	4	1	4	92	92
+Move2Drop	1	5	1	5	106	106
+Move2Drop	1	3	2	1	8	8
+Move2Drop	1	2	2	2	36	36
+Move2Drop	1	4	2	3	54	54
+Move2Drop	1	5	2	4	75	75
+Move2Drop	2	1	3	1	4	4
+Move2Drop	2	2	3	2	44	44
+Move2Drop	2	4	3	3	69	69
+Move2Drop	2	5	3	4	87	87
+Move2Drop	2	2	4	1	16	16
+Move2Drop	1	3	4	2	38	38
+Move2Drop	1	4	4	3	71	71
+Move2Drop	1	5	4	4	96	96
+Move2Drop	1	3	5	1	22	22
+Move2Drop	1	1	5	2	48	48
+Move2Drop	1	2	5	3	66	66
+Move2Drop	2	4	5	4	83	83
+Move2Drop	2	5	5	5	100	100
+Processing	-	3	1	1	38	47
+Processing	-	1	1	2	64	76
+Processing	-	2	1	3	79	88
+Processing	-	4	1	4	96	102
+Processing	-	5	1	5	106	106
+Processing	-	3	2	1	8	24
+Processing	-	2	2	2	36	47
+Processing	-	4	2	3	54	63
+Processing	-	5	2	4	75	75
+Processing	-	1	3	1	4	25
+Processing	-	2	3	2	47	65
+Processing	-	4	3	3	69	76
+Processing	-	5	3	4	87	87
+Processing	-	2	4	1	16	36
+Processing	-	3	4	2	47	69
+Processing	-	4	4	3	76	87
+Processing	-	5	4	4	96	96
+Processing	-	3	5	1	24	38
+Processing	-	1	5	2	48	64
+Processing	-	2	5	3	66	79
+Processing	-	4	5	4	87	96
+Processing	-	5	5	5	100	100
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 97 variables, 197 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 386.6 (before), 386.6 (after)
+ !  . Memory usage      : 736.7 kB (before), 736.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         97                 -
+ + New bound is 80
+ *           177      120  0.01s        1      (gap is 54.80%)
+ *           171      217  0.01s        1      (gap is 53.22%)
+ *           169      314  0.01s        1      (gap is 52.66%)
+ *           166      484  0.01s        1      (gap is 51.81%)
+ *           157      581  0.01s        1      (gap is 49.04%)
+ *           155      678  0.01s        1      (gap is 48.39%)
+ *           147      775  0.01s        1      (gap is 45.58%)
+ *           145      872  0.01s        1      (gap is 44.83%)
+ *           135    1,014  0.02s        1      (gap is 40.74%)
+ *           127    1,539  0.02s        1      (gap is 37.01%)
+ *           114    1,849  0.02s        2      (gap is 29.82%)
+ *           112    1,931  0.02s        3      (gap is 28.57%)
+ *           111    4,501  0.08s        1      (gap is 27.93%)
+             111    5,142         58    2            -
+ + New bound is 100 (gap is 9.91%)
+ *           110    5,276  0.10s        3      (gap is 9.09%)
+ ! Using failure-directed search.
+ *           109   20,296  0.27s        3      (gap is 8.26%)
+ *           107   20,748  0.27s        3      (gap is 6.54%)
+             107   14,288          1    1       on Move4Drop({5,4,4,9,0,2,87})(2)
+ + New bound is 105 (gap is 1.87%)
+             107   14,323          1    1   F   on Move4Drop({3,1,1,21,0,5,6})(1)
+ + New bound is 107 (gap is 0%)
+ ! Time = 0.38s, Average fail depth = 17, Memory usage = 3.4 MB
+ ! Current bound is 107 (gap is 0%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 16 solutions found.
+ ! Best objective         : 107 (optimal - effective tol. is 0)
+ ! Best bound             : 107
+ ! Number of branches     : 80,324
+ ! Number of fails        : 39,006
+ ! Total memory usage     : 5.8 MB (3.4 MB CP Optimizer + 2.4 MB Concert)
+ ! Time spent in solve    : 0.38s (0.38s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 208,093.3
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E93	43200	0.388	107
+Type	v	m	j	o	s	e	
+Move2Drop	2	3	1	1	38	38
+Move2Drop	2	1	1	2	58	58
+Move2Drop	2	2	1	3	78	78
+Move2Drop	1	4	1	4	95	95
+Move2Drop	2	5	1	5	107	107
+Move2Drop	1	3	2	1	10	10
+Move2Drop	1	2	2	2	34	34
+Move2Drop	1	4	2	3	56	56
+Move2Drop	1	5	2	4	67	67
+Move2Drop	2	1	3	1	16	16
+Move2Drop	2	2	3	2	46	46
+Move2Drop	2	4	3	3	72	72
+Move2Drop	1	5	3	4	81	81
+Move2Drop	2	2	4	1	4	4
+Move2Drop	1	3	4	2	40	40
+Move2Drop	1	4	4	3	79	79
+Move2Drop	2	5	4	4	92	92
+Move2Drop	1	3	5	1	24	24
+Move2Drop	1	1	5	2	46	46
+Move2Drop	2	2	5	3	64	64
+Move2Drop	2	4	5	4	86	86
+Move2Drop	1	5	5	5	101	101
+Processing	-	3	1	1	40	49
+Processing	-	1	1	2	62	74
+Processing	-	2	1	3	78	87
+Processing	-	4	1	4	99	105
+Processing	-	5	1	5	107	107
+Processing	-	3	2	1	10	26
+Processing	-	2	2	2	34	45
+Processing	-	4	2	3	56	65
+Processing	-	5	2	4	67	67
+Processing	-	1	3	1	16	37
+Processing	-	2	3	2	46	64
+Processing	-	4	3	3	72	79
+Processing	-	5	3	4	81	81
+Processing	-	2	4	1	4	24
+Processing	-	3	4	2	49	71
+Processing	-	4	4	3	79	90
+Processing	-	5	4	4	92	92
+Processing	-	3	5	1	26	40
+Processing	-	1	5	2	46	62
+Processing	-	2	5	3	64	77
+Processing	-	4	5	4	90	99
+Processing	-	5	5	5	101	101
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 97 variables, 197 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 386.6 (before), 386.6 (after)
+ !  . Memory usage      : 736.8 kB (before), 736.8 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         97                 -
+ + New bound is 94
+ *           335      120  0.01s        1      (gap is 71.94%)
+ *           326      217  0.01s        1      (gap is 71.17%)
+ *           322      314  0.01s        1      (gap is 70.81%)
+ *           298      411  0.01s        1      (gap is 68.46%)
+ *           271      508  0.01s        1      (gap is 65.31%)
+ *           267      605  0.01s        1      (gap is 64.79%)
+ *           263      702  0.01s        1      (gap is 64.26%)
+ *           229      799  0.01s        1      (gap is 58.95%)
+ *           228      896  0.01s        1      (gap is 58.77%)
+ *           227      993  0.01s        1      (gap is 58.59%)
+             227    1,122         73    1            -
+ + New bound is 114 (gap is 49.78%)
+ *           224    1,199  0.02s        1      (gap is 49.11%)
+ *           217    1,369  0.02s        1      (gap is 47.47%)
+ *           196    1,509  0.02s        1      (gap is 41.84%)
+ *           193    1,641  0.02s        1      (gap is 40.93%)
+ *           186    1,715  0.02s        1      (gap is 38.71%)
+ *           176    2,008  0.03s        1      (gap is 35.23%)
+ *           171    2,789  0.03s        1      (gap is 33.33%)
+ *           164    3,297  0.03s        3      (gap is 30.49%)
+ ! Time = 0.03s, Average fail depth = 29, Memory usage = 3.5 MB
+ ! Current bound is 114 (gap is 30.49%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ ! Using failure-directed search.
+ *           163    7,598  0.10s        2      (gap is 30.06%)
+ *           158   10,080  0.11s        3      (gap is 27.85%)
+ *           157    8,219  0.11s        2      (gap is 27.39%)
+ *           155   12,272  0.13s        3      (gap is 26.45%)
+ *           152   12,638  0.15s        3      (gap is 25.00%)
+ *           150   18,077  0.18s        3      (gap is 24.00%)
+ *           149   17,494  0.23s        2      (gap is 23.49%)
+             149     331k          1    1   F   on jobOnMachine({5,3,2,13,0,1,70})
+ + New bound is 115 (gap is 22.82%)
+             149     337k          1    1       on jobOnMachine({5,3,2,13,0,1,70})
+ + New bound is 116 (gap is 22.15%)
+             149     339k         57    1   F   on Move4Drop({2,4,5,0,1,4,0})(1)
+ + New bound is 122 (gap is 18.12%)
+             149     340k         39    1   F   on Drop({4,4,5,0,1,4,0})
+ + New bound is 130 (gap is 12.75%)
+             149     341k          1    1   F   on Move4Drop({5,5,5,0,1,4,0})(1)
+ + New bound is 133 (gap is 10.74%)
+             149     341k          1    1       on Move4Drop({5,5,5,0,1,4,0})(2)
+ + New bound is 143 (gap is 4.03%)
+             149     341k          1    1   F   on Move4Drop({3,1,1,21,0,5,6})(1)
+ + New bound is 149 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 25 solutions found.
+ ! Best objective         : 149 (optimal - effective tol. is 0)
+ ! Best bound             : 149
+ ! Number of branches     : 1,552,700
+ ! Number of fails        : 739,820
+ ! Total memory usage     : 6.2 MB (3.7 MB CP Optimizer + 2.5 MB Concert)
+ ! Time spent in solve    : 7.10s (7.10s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 218,505.5
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E94	43200	7.108	149
+Type	v	m	j	o	s	e	
+Move2Drop	2	3	1	1	10	10
+Move2Drop	1	1	1	2	40	40
+Move2Drop	2	2	1	3	58	58
+Move2Drop	1	4	1	4	73	73
+Move2Drop	1	5	1	5	93	93
+Move2Drop	1	3	2	1	32	32
+Move2Drop	1	2	2	2	66	66
+Move2Drop	2	4	2	3	84	84
+Move2Drop	2	5	2	4	110	110
+Move2Drop	2	1	3	1	54	54
+Move2Drop	1	2	3	2	101	101
+Move2Drop	2	4	3	3	125	125
+Move2Drop	2	5	3	4	146	146
+Move2Drop	2	2	4	1	30	30
+Move2Drop	2	3	4	2	66	66
+Move2Drop	2	4	4	3	96	96
+Move2Drop	1	5	4	4	121	121
+Move2Drop	1	3	5	1	10	10
+Move2Drop	1	1	5	2	54	54
+Move2Drop	2	2	5	3	78	78
+Move2Drop	1	4	5	4	107	107
+Move2Drop	1	5	5	5	149	149
+Processing	-	3	1	1	10	19
+Processing	-	1	1	2	40	52
+Processing	-	2	1	3	58	67
+Processing	-	4	1	4	73	79
+Processing	-	5	1	5	93	93
+Processing	-	3	2	1	33	49
+Processing	-	2	2	2	67	78
+Processing	-	4	2	3	84	93
+Processing	-	5	2	4	110	110
+Processing	-	1	3	1	70	91
+Processing	-	2	3	2	101	119
+Processing	-	4	3	3	125	132
+Processing	-	5	3	4	146	146
+Processing	-	2	4	1	30	50
+Processing	-	3	4	2	66	88
+Processing	-	4	4	3	96	107
+Processing	-	5	4	4	121	121
+Processing	-	3	5	1	19	33
+Processing	-	1	5	2	54	70
+Processing	-	2	5	3	78	91
+Processing	-	4	5	4	107	116
+Processing	-	5	5	5	149	149
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 117 variables, 239 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 497.4 (before), 497.4 (after)
+ !  . Memory usage      : 737.8 kB (before), 737.8 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        117                 -
+ + New bound is 100
+ *           312      146  0.01s        1      (gap is 67.95%)
+ *           309      264  0.01s        1      (gap is 67.64%)
+ *           291      382  0.01s        1      (gap is 65.64%)
+ *           290      500  0.01s        1      (gap is 65.52%)
+ *           275      618  0.01s        1      (gap is 63.64%)
+ *           274      736  0.01s        1      (gap is 63.50%)
+ *           273      854  0.01s        1      (gap is 63.37%)
+ *           269      972  0.01s        1      (gap is 62.83%)
+ *           257    1,090  0.02s        1      (gap is 61.09%)
+ *           246    1,208  0.02s        1      (gap is 59.35%)
+             246    1,318        103    1   F        -
+ + New bound is 132 (gap is 46.34%)
+ *           234    1,483  0.02s        3      (gap is 43.59%)
+ *           226    1,937  0.02s        3      (gap is 41.59%)
+ *           189    2,465  0.04s        1      (gap is 30.16%)
+ ! Using failure-directed search.
+ *           186    3,883  0.04s        3      (gap is 29.03%)
+ *           184    3,956  0.05s        2      (gap is 28.26%)
+ *           181    4,191  0.05s        3      (gap is 27.07%)
+ *           180    4,356  0.05s        3      (gap is 26.67%)
+ *           179    4,608  0.05s        3      (gap is 26.26%)
+ ! Time = 0.05s, Average fail depth = 33, Memory usage = 3.9 MB
+ ! Current bound is 132 (gap is 26.26%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           175    4,704  0.05s        3      (gap is 24.57%)
+ *           174    3,677  0.06s        1      (gap is 24.14%)
+ *           173    5,267  0.06s        2      (gap is 23.70%)
+ *           170    5,455  0.06s        2      (gap is 22.35%)
+ *           168    6,212  0.07s        2      (gap is 21.43%)
+ *           165    7,709  0.11s        3      (gap is 20.00%)
+ *           163    8,329  0.11s        3      (gap is 19.02%)
+ *           162   19,120  0.24s        3      (gap is 18.52%)
+ *           160   22,111  0.27s        2      (gap is 17.50%)
+ *           159   24,472  0.31s        2      (gap is 16.98%)
+ *           158   35,142  0.40s        2      (gap is 16.46%)
+ *           156   95,970  1.61s        1      (gap is 15.38%)
+ *           154     126k  1.65s        3      (gap is 14.29%)
+ *           153     212k  3.90s        1      (gap is 13.73%)
+             153     241k         56    1   F   on Move4Drop({2,1,2,21,0,5,8})(1)
+ + New bound is 140 (gap is 8.50%)
+             153     241k         56    1   F   on jobOnMachine({4,2,3,20,0,2,72})
+ + New bound is 153 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 32 solutions found.
+ ! Best objective         : 153 (optimal - effective tol. is 0)
+ ! Best bound             : 153
+ ! Number of branches     : 938,128
+ ! Number of fails        : 434,062
+ ! Total memory usage     : 6.4 MB (3.9 MB CP Optimizer + 2.5 MB Concert)
+ ! Time spent in solve    : 4.58s (4.58s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 204,697.4
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E101	43200	4.585	153
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	42	42
+Move2Drop	1	3	1	2	62	62
+Move2Drop	2	2	1	3	92	92
+Move2Drop	2	4	1	4	129	129
+Move2Drop	1	5	1	5	153	153
+Move2Drop	2	2	2	1	8	8
+Move2Drop	1	3	2	2	35	35
+Move2Drop	1	4	2	3	68	68
+Move2Drop	1	5	2	4	107	108
+Move2Drop	1	3	3	1	13	13
+Move2Drop	1	2	3	2	48	48
+Move2Drop	2	1	3	3	75	75
+Move2Drop	1	4	3	4	100	100
+Move2Drop	2	5	3	5	135	135
+Move2Drop	2	2	4	1	67	69
+Move2Drop	2	3	4	2	98	98
+Move2Drop	1	4	4	3	124	124
+Move2Drop	2	5	4	4	153	153
+Move2Drop	2	1	5	1	24	24
+Move2Drop	2	3	5	2	51	51
+Move2Drop	1	4	5	3	80	80
+Move2Drop	2	5	5	4	110	112
+Move2Drop	1	2	6	1	29	29
+Move2Drop	1	1	6	2	54	54
+Move2Drop	2	3	6	3	83	84
+Move2Drop	2	4	6	4	104	104
+Move2Drop	1	5	6	5	132	135
+Processing	-	1	1	1	43	54
+Processing	-	3	1	2	67	86
+Processing	-	2	1	3	92	108
+Processing	-	4	1	4	134	147
+Processing	-	5	1	5	153	153
+Processing	-	2	2	1	8	29
+Processing	-	3	2	2	35	51
+Processing	-	4	2	3	68	82
+Processing	-	5	2	4	108	108
+Processing	-	3	3	1	18	26
+Processing	-	2	3	2	57	67
+Processing	-	1	3	3	75	89
+Processing	-	4	3	4	100	109
+Processing	-	5	3	5	135	135
+Processing	-	2	4	1	76	89
+Processing	-	3	4	2	98	118
+Processing	-	4	4	3	124	134
+Processing	-	5	4	4	153	153
+Processing	-	1	5	1	30	39
+Processing	-	3	5	2	51	67
+Processing	-	4	5	3	82	100
+Processing	-	5	5	4	112	112
+Processing	-	2	6	1	29	48
+Processing	-	1	6	2	54	75
+Processing	-	3	6	3	87	98
+Processing	-	4	6	4	109	124
+Processing	-	5	6	5	135	135
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 117 variables, 239 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 497.4 (before), 497.4 (after)
+ !  . Memory usage      : 737.8 kB (before), 737.8 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        117                 -
+ + New bound is 94
+ *           240      146  0.01s        1      (gap is 60.83%)
+ *           235      264  0.01s        1      (gap is 60.00%)
+ *           222      382  0.01s        1      (gap is 57.66%)
+ *           197      582  0.01s        1      (gap is 52.28%)
+ *           195      700  0.01s        1      (gap is 51.79%)
+ *           186      818  0.01s        1      (gap is 49.46%)
+ *           185      936  0.01s        1      (gap is 49.19%)
+ *           184    1,054  0.02s        1      (gap is 48.91%)
+ *           182    1,172  0.02s        1      (gap is 48.35%)
+ *           180    1,680  0.02s        1      (gap is 47.78%)
+ *           160    1,728  0.02s        2      (gap is 41.25%)
+ *           156    2,141  0.03s        1      (gap is 39.74%)
+ *           154    2,142  0.03s        2      (gap is 38.96%)
+ *           153    2,558  0.04s        1      (gap is 38.56%)
+ *           152    2,558  0.04s        2      (gap is 38.16%)
+ *           151    3,000  0.04s        3      (gap is 37.75%)
+ *           150    3,806  0.10s        2      (gap is 37.33%)
+             150    5,494         62    3            -
+ + New bound is 125 (gap is 16.67%)
+ *           149    5,062  0.12s        1      (gap is 16.11%)
+ ! Time = 0.12s, Average fail depth = 31, Memory usage = 3.7 MB
+ ! Current bound is 125 (gap is 16.11%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           147    5,792  0.12s        1      (gap is 14.97%)
+ *           146    8,411  0.15s        3      (gap is 14.38%)
+ *           142    8,783  0.15s        3      (gap is 11.97%)
+ ! Using failure-directed search.
+ *           141   12,284  0.21s        2      (gap is 11.35%)
+ *           139   13,562  0.35s        3      (gap is 10.07%)
+             139   17,595          1    1       on jobOnMachine({6,4,4,15,0,3,111})
+ + New bound is 126 (gap is 9.35%)
+             139   18,289          1    1       on Move4Drop({3,1,3,8,0,5,10})(1)
+ + New bound is 136 (gap is 2.16%)
+             139   18,291          1    1   F   on Drop({5,2,3,16,0,1,19})
+ + New bound is 139 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 23 solutions found.
+ ! Best objective         : 139 (optimal - effective tol. is 0)
+ ! Best bound             : 139
+ ! Number of branches     : 100,292
+ ! Number of fails        : 54,653
+ ! Total memory usage     : 6.3 MB (3.7 MB CP Optimizer + 2.6 MB Concert)
+ ! Time spent in solve    : 0.61s (0.60s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 165,225.7
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E102	43200	0.61	139
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	4	4
+Move2Drop	2	3	1	2	19	19
+Move2Drop	1	2	1	3	50	50
+Move2Drop	2	4	1	4	70	70
+Move2Drop	1	5	1	5	99	99
+Move2Drop	1	2	2	1	66	66
+Move2Drop	1	3	2	2	89	89
+Move2Drop	1	4	2	3	111	111
+Move2Drop	1	5	2	4	130	130
+Move2Drop	2	3	3	1	33	33
+Move2Drop	1	2	3	2	80	80
+Move2Drop	2	1	3	3	109	109
+Move2Drop	1	4	3	4	125	125
+Move2Drop	2	5	3	5	139	139
+Move2Drop	1	2	4	1	6	6
+Move2Drop	1	3	4	2	22	22
+Move2Drop	2	4	4	3	84	84
+Move2Drop	2	5	4	4	115	115
+Move2Drop	2	1	5	1	14	14
+Move2Drop	1	3	5	2	36	36
+Move2Drop	1	4	5	3	56	56
+Move2Drop	2	5	5	4	88	88
+Move2Drop	1	2	6	1	20	20
+Move2Drop	2	1	6	2	57	57
+Move2Drop	2	3	6	3	82	82
+Move2Drop	1	4	6	4	95	95
+Move2Drop	1	5	6	5	116	116
+Processing	-	1	1	1	4	15
+Processing	-	3	1	2	19	38
+Processing	-	2	1	3	50	66
+Processing	-	4	1	4	74	87
+Processing	-	5	1	5	99	99
+Processing	-	2	2	1	66	87
+Processing	-	3	2	2	93	109
+Processing	-	4	2	3	112	126
+Processing	-	5	2	4	130	130
+Processing	-	3	3	1	54	62
+Processing	-	2	3	2	87	97
+Processing	-	1	3	3	109	123
+Processing	-	4	3	4	126	135
+Processing	-	5	3	5	139	139
+Processing	-	2	4	1	6	19
+Processing	-	3	4	2	62	82
+Processing	-	4	4	3	87	97
+Processing	-	5	4	4	115	115
+Processing	-	1	5	1	15	24
+Processing	-	3	5	2	38	54
+Processing	-	4	5	3	56	74
+Processing	-	5	5	4	88	88
+Processing	-	2	6	1	20	39
+Processing	-	1	6	2	57	78
+Processing	-	3	6	3	82	93
+Processing	-	4	6	4	97	112
+Processing	-	5	6	5	116	116
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 117 variables, 239 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 497.4 (before), 497.4 (after)
+ !  . Memory usage      : 737.8 kB (before), 737.8 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        117                 -
+ + New bound is 94
+ *           225      146  0.01s        1      (gap is 58.22%)
+ *           224      264  0.01s        1      (gap is 58.04%)
+ *           223      382  0.01s        1      (gap is 57.85%)
+ *           221      500  0.01s        1      (gap is 57.47%)
+ *           206      618  0.01s        1      (gap is 54.37%)
+ *           199      736  0.01s        1      (gap is 52.76%)
+ *           197      854  0.01s        1      (gap is 52.28%)
+ *           193      972  0.01s        1      (gap is 51.30%)
+ *           192    1,090  0.03s        1      (gap is 51.04%)
+ *           158    1,657  0.03s        1      (gap is 40.51%)
+             158    1,325          1    2   F        -
+ + New bound is 125 (gap is 20.89%)
+ *           153    2,081  0.05s        1      (gap is 18.30%)
+ *           152    2,957  0.06s        3      (gap is 17.76%)
+ *           151    6,877  0.10s        2      (gap is 17.22%)
+ *           150    7,108  0.10s        2      (gap is 16.67%)
+ ! Using failure-directed search.
+ *           149   14,434  0.21s        2      (gap is 16.11%)
+ *           147   19,616  0.23s        2      (gap is 14.97%)
+ *           146   14,007  0.28s        3      (gap is 14.38%)
+ *           145   14,405  0.28s        3      (gap is 13.79%)
+ ! Time = 0.28s, Average fail depth = 23, Memory usage = 3.7 MB
+ ! Current bound is 125 (gap is 13.79%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           144   14,577  0.28s        3      (gap is 13.19%)
+ *           143   16,190  0.30s        3      (gap is 12.59%)
+ *           142   19,871  0.64s        1      (gap is 11.97%)
+ *           141   23,091  0.72s        1      (gap is 11.35%)
+ *           139   37,479  1.07s        1      (gap is 10.07%)
+             139   37,574          1    1   F   on Move4Drop({3,1,3,8,0,5,10})(1)
+ + New bound is 139 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 23 solutions found.
+ ! Best objective         : 139 (optimal - effective tol. is 0)
+ ! Best bound             : 139
+ ! Number of branches     : 201,575
+ ! Number of fails        : 102,495
+ ! Total memory usage     : 6.4 MB (3.7 MB CP Optimizer + 2.7 MB Concert)
+ ! Time spent in solve    : 1.09s (1.09s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 184,761.7
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E103	43200	1.093	139
+Type	v	m	j	o	s	e	
+Move2Drop	2	1	1	1	2	2
+Move2Drop	2	3	1	2	21	21
+Move2Drop	2	2	1	3	48	48
+Move2Drop	2	4	1	4	72	72
+Move2Drop	1	5	1	5	87	87
+Move2Drop	1	2	2	1	4	4
+Move2Drop	1	3	2	2	31	31
+Move2Drop	2	4	2	3	58	58
+Move2Drop	2	5	2	4	74	74
+Move2Drop	2	3	3	1	35	35
+Move2Drop	1	2	3	2	75	75
+Move2Drop	1	1	3	3	103	104
+Move2Drop	1	4	3	4	128	128
+Move2Drop	2	5	3	5	139	139
+Move2Drop	2	2	4	1	64	64
+Move2Drop	1	3	4	2	83	83
+Move2Drop	2	4	4	3	118	118
+Move2Drop	1	5	4	4	130	130
+Move2Drop	1	1	5	1	37	42
+Move2Drop	1	3	5	2	67	67
+Move2Drop	1	4	5	3	85	85
+Move2Drop	2	5	5	4	105	105
+Move2Drop	1	2	6	1	18	18
+Move2Drop	1	1	6	2	56	56
+Move2Drop	2	3	6	3	85	85
+Move2Drop	2	4	6	4	98	98
+Move2Drop	2	5	6	5	120	120
+Processing	-	1	1	1	2	13
+Processing	-	3	1	2	21	40
+Processing	-	2	1	3	48	64
+Processing	-	4	1	4	72	85
+Processing	-	5	1	5	87	87
+Processing	-	2	2	1	4	25
+Processing	-	3	2	2	40	56
+Processing	-	4	2	3	58	72
+Processing	-	5	2	4	74	74
+Processing	-	3	3	1	58	66
+Processing	-	2	3	2	77	87
+Processing	-	1	3	3	104	118
+Processing	-	4	3	4	128	137
+Processing	-	5	3	5	139	139
+Processing	-	2	4	1	64	77
+Processing	-	3	4	2	96	116
+Processing	-	4	4	3	118	128
+Processing	-	5	4	4	130	130
+Processing	-	1	5	1	47	56
+Processing	-	3	5	2	67	83
+Processing	-	4	5	3	85	103
+Processing	-	5	5	4	105	105
+Processing	-	2	6	1	25	44
+Processing	-	1	6	2	56	77
+Processing	-	3	6	3	85	96
+Processing	-	4	6	4	103	118
+Processing	-	5	6	5	120	120
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 117 variables, 239 constraints, 1 phase
+ ! TimeLimit            = 43,200
+ ! Workers              = 3
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 497.4 (before), 497.4 (after)
+ !  . Memory usage      : 737.7 kB (before), 737.7 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        117                 -
+ + New bound is 114
+ *           402      146  0.01s        1      (gap is 71.64%)
+ *           388      264  0.01s        1      (gap is 70.62%)
+ *           386      382  0.01s        1      (gap is 70.47%)
+ *           368      500  0.01s        1      (gap is 69.02%)
+ *           357      618  0.01s        1      (gap is 68.07%)
+ *           352      831  0.01s        1      (gap is 67.61%)
+ *           329      949  0.01s        1      (gap is 65.35%)
+ *           322    1,067  0.02s        1      (gap is 64.60%)
+ *           320    1,185  0.02s        1      (gap is 64.38%)
+ *           277    1,743  0.02s        1      (gap is 58.84%)
+ *           268    2,162  0.03s        1      (gap is 57.46%)
+ *           266    2,582  0.03s        1      (gap is 57.14%)
+ *           255    3,022  0.03s        1      (gap is 55.29%)
+ *           253    5,110  0.06s        1      (gap is 54.94%)
+             253    5,529         88    1            -
+ + New bound is 143 (gap is 43.48%)
+ *           249    5,646  0.07s        1      (gap is 42.57%)
+ *           243    5,782  0.07s        1      (gap is 41.15%)
+ *           237    5,906  0.07s        1      (gap is 39.66%)
+ *           232    6,765  0.07s        1      (gap is 38.36%)
+ ! Time = 0.07s, Average fail depth = 35, Memory usage = 3.8 MB
+ ! Current bound is 143 (gap is 38.36%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           205    6,925  0.07s        1      (gap is 30.24%)
+ ! Using failure-directed search.
+ *           203   11,557  0.14s        3      (gap is 29.56%)
+ *           201   13,269  0.16s        3      (gap is 28.86%)
+ *           194   17,915  0.22s        3      (gap is 26.29%)
+ *           193   74,248  0.94s        2      (gap is 25.91%)
+ *           192   74,495  0.94s        2      (gap is 25.52%)
+ *           191   87,969  1.10s        3      (gap is 25.13%)
+ *           190     150k  1.77s        2      (gap is 24.74%)
+ *           189     652k  13.09s       1      (gap is 24.34%)
+ *           187   1,086k  13.19s       2      (gap is 23.53%)
+ *           186   1,120k  13.88s       3      (gap is 23.12%)
+ *           185   1,380k  33.80s       1      (gap is 22.70%)
+ *           184   4,899k  151.11s      1      (gap is 22.28%)
+ *           183   4,995k  154.43s      1      (gap is 21.86%)
+             183   8,503k         90    1   F   on Move4Drop({1,1,1,11,0,5,13})(1)
+ + New bound is 155 (gap is 15.30%)
+             183   8,526k         73    1       on Move4Drop({4,3,4,10,0,3,101})(2)
+ + New bound is 169 (gap is 7.65%)
+             183   8,528k         69    1   F   on Move4Drop({3,5,5,0,1,4,0})(1)
+ + New bound is 183 (gap is 0%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 32 solutions found.
+ ! Best objective         : 183 (optimal - effective tol. is 0)
+ ! Best bound             : 183
+ ! Number of branches     : 50,878,089
+ ! Number of fails        : 21,978,172
+ ! Total memory usage     : 12.4 MB (9.6 MB CP Optimizer + 2.8 MB Concert)
+ ! Time spent in solve    : 259.25s (259.25s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 196,247.3
+ ! ----------------------------------------------------------------------------
+JSP_integrated_fast.mod	E104	43200	259.257	183
+Type	v	m	j	o	s	e	
+Move2Drop	1	1	1	1	4	4
+Move2Drop	1	3	1	2	32	32
+Move2Drop	1	2	1	3	94	94
+Move2Drop	2	4	1	4	155	155
+Move2Drop	2	5	1	5	183	183
+Move2Drop	2	2	2	1	73	73
+Move2Drop	1	3	2	2	102	102
+Move2Drop	2	4	2	3	127	127
+Move2Drop	1	5	2	4	155	155
+Move2Drop	2	3	3	1	10	10
+Move2Drop	2	2	3	2	44	44
+Move2Drop	1	1	3	3	68	68
+Move2Drop	2	4	3	4	97	97
+Move2Drop	1	5	3	5	122	122
+Move2Drop	2	2	4	1	30	30
+Move2Drop	2	3	4	2	53	53
+Move2Drop	1	4	4	3	81	82
+Move2Drop	2	5	4	4	111	111
+Move2Drop	1	1	5	1	26	26
+Move2Drop	1	3	5	2	74	75
+Move2Drop	1	4	5	3	108	108
+Move2Drop	2	5	5	4	141	141
+Move2Drop	1	2	6	1	52	53
+Move2Drop	2	1	6	2	87	87
+Move2Drop	2	3	6	3	121	121
+Move2Drop	1	4	6	4	138	141
+Move2Drop	1	5	6	5	183	183
+Processing	-	1	1	1	4	15
+Processing	-	3	1	2	34	53
+Processing	-	2	1	3	129	145
+Processing	-	4	1	4	156	169
+Processing	-	5	1	5	183	183
+Processing	-	2	2	1	73	94
+Processing	-	3	2	2	102	118
+Processing	-	4	2	3	127	141
+Processing	-	5	2	4	155	155
+Processing	-	3	3	1	26	34
+Processing	-	2	3	2	44	54
+Processing	-	1	3	3	71	85
+Processing	-	4	3	4	97	106
+Processing	-	5	3	5	122	122
+Processing	-	2	4	1	30	43
+Processing	-	3	4	2	53	73
+Processing	-	4	4	3	85	95
+Processing	-	5	4	4	111	111
+Processing	-	1	5	1	26	35
+Processing	-	3	5	2	75	91
+Processing	-	4	5	3	108	126
+Processing	-	5	5	4	141	141
+Processing	-	2	6	1	54	73
+Processing	-	1	6	2	89	110
+Processing	-	3	6	3	121	132
+Processing	-	4	6	4	141	156
+Processing	-	5	6	5	183	183
+main returns 0
+
+<<< main
+
+
+<<< done
+
